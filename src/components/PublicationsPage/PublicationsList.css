@@ -1,0 +1,73 @@
+.publications-list {
+    padding: 0px;
+}
+
+.pubjournalyear {
+    font-style: italic;
+    margin-bottom: 0.15em; /* Adjust this value as needed to increase/decrease space */
+}
+
+.pubpeople {
+    margin-bottom: 0.15em; /* Adjust this value as needed to increase/decrease space */
+}
+
+.publication-item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.pubtitle {
+    font-weight: bold;
+    color: #333; 
+    font-size: 1em; /* 1.5 times the size of the current font context */
+    padding-bottom: 0.25em;
+}
+
+.publication-buttons {
+    display: flex; /* Use flexbox to layout tags */
+    flex-wrap: wrap; /* Allow tags to wrap to the next line */
+    gap: 0.5em; /* Optional: adds space between tags */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 0.4em 0.8em;
+    margin-right: 1em;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.pdf {
+    background-color: #e57373; /* Red */
+}
+
+.video {
+    background-color: #64b5f6; /* Blue */
+}
+
+.highlight {
+    background-color: #81c784; /* Green */
+}
+
+.code {
+    background-color: #ba68c8; /* Purple */
+}
+
+.award {
+    background-color: #ffd54f; /* Amber */
+}
+
+.news {
+    background-color: #26a69a; /* Teal */
+}
+
+.button:hover {
+    opacity: 0.6;
+}
