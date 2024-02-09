@@ -1,6 +1,6 @@
 { 
-  "homepage": "https://computationalrobotics.github.io/website",
-  "name": "website",
+  "homepage": "https://computationalrobotics.github.io",
+  "name": "ComputationalRobotics",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
