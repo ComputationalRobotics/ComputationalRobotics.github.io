@@ -62,6 +62,7 @@
 
     .mainsection-tab-container {
         max-width: 1000px; /* Adjust this value as needed for your max-width */
+        height: 375px;
     }
 
     .main-section-content {
@@ -75,6 +76,7 @@
     .mainsection-tab-container {
         flex-direction: column;
         padding: 2em;
+        height: auto;
     }
     .main-section-content {
         margin-bottom: 1em;

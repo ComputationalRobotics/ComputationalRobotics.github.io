@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
         <div className="footer-right">
           <p>Electrical Engineering Department</p>
-          <p>Harvard University</p>
+          <p>Harvard John A. Paulson School of Engineering and Applied Sciences</p>
           <p>150 Western Ave, Boston, MA <span class="postal-code">02134</span></p>
         </div>
       </div>
