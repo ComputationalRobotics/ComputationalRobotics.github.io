@@ -12,7 +12,7 @@ const MainSection = () => {
                     <p><b>Join us</b>: If you are interested in research opportunities at the lab, please contact Heng Yang at hankyang [at] seas [dot] harvard [dot] edu. This year we are particularly looking for a strong candidate in statistics and machine learning.</p>
                 </div>
                 <div className="image-container">
-                    <img src={image} alt="Stanford Vision and Learning Lab" />
+                    <img src={image} alt="Harvard Computational Robotics Lab" />
                 </div>
             </div>
         </div>
