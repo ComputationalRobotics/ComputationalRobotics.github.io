@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-left">
           <p>Harvard Computational Robotics Lab</p>
-          <p>Admin: Hank Yang</p>
+          <p>Admin: Heng Yang</p>
           <p>Email: <a href="mailto:hankyang@seas.harvard.edu">hankyang@seas.harvard.edu</a></p>
         </div>
         <div className="footer-right">

@@ -4,7 +4,7 @@ import './PeoplePage.css';
 const faculty = [
     {
       id: 1,
-      name: 'Hank Yang',
+      name: 'Heng Yang',
       title: 'Assistant Professor',
       imageUrl: process.env.PUBLIC_URL + 'hank.png',
       bioLink: 'https://hankyang.seas.harvard.edu/',
@@ -19,7 +19,7 @@ const people = [
       title: 'Postdoc',
       category: 'research-staff-and-postdocs', 
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
-      bioLink: 'https://hankyang.seas.harvard.edu/',
+      bioLink: 'https://zhiyuzz.github.io/',
       // Other links or additional information can be added here
     },
     {
@@ -32,7 +32,8 @@ const people = [
       id: 3,
       name: 'David Bombara',
       category: 'PhD',
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg'
+      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      bioLink: 'https://dbombara.github.io/welcome'
     },
     {
       id: 4,
@@ -78,11 +79,11 @@ const people = [
       id: 10,
       name: 'Tim Nguyen',
       category: 'High School',
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      imageUrl: process.env.PUBLIC_URL + 'tim.jpg',
     },
     {
       id: 11,
-      name: 'Franka',
+      name: 'Tucker',
       title: 'Franka Emika Panda Arm',
       category: 'Robot',
       imageUrl: process.env.PUBLIC_URL + 'franka.png',
@@ -91,7 +92,8 @@ const people = [
       id: 12,
       name: 'Jiarui Li',
       category: 'Alumni',
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      imageUrl: process.env.PUBLIC_URL + 'jiarui.jpg',
+      bioLink: 'https://jrli.org/'
     },
     {
       id: 13,
@@ -117,6 +119,13 @@ const people = [
       category: 'Alumni',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
     },
+    {
+        id: 17,
+        name: 'Aneesh Muppidi',
+        title: 'Harvard College',
+        category: 'Masters and Undergrads',
+        imageUrl: process.env.PUBLIC_URL + 'aneesh.jpg',
+      }
 
   ];
   

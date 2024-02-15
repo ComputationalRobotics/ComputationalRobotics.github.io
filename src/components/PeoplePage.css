@@ -93,6 +93,10 @@
     color: black; /* Initial color */
     text-decoration: none; /* No underline */
   }
+
+  .people-name-link:link:hover {
+    text-decoration: underline; /* Typically, links are underlined on hover for usability */
+  }
   
   .people-name-link h3 {
     margin: 0; /* Remove default margin from h3 */
