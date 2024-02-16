@@ -124,7 +124,7 @@ const people = [
         name: 'Aneesh Muppidi',
         title: 'Harvard College',
         category: 'Masters and Undergrads',
-        imageUrl: process.env.PUBLIC_URL + 'aneesh.jpg',
+        imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
       }
 
   ];
