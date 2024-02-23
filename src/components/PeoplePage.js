@@ -33,7 +33,7 @@ const people = [
       id: 3,
       name: 'David Bombara',
       category: 'PhD',
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      imageUrl: process.env.PUBLIC_URL + 'david_bombara.jpg',
       bioLink: 'https://dbombara.github.io/welcome',
       title: "Electrical Engineering"
     },
@@ -76,12 +76,14 @@ const people = [
       id: 9,
       name: 'William Zhang',
       category: 'High School',
+      title: 'Weston High School',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
     },
     {
       id: 10,
       name: 'Tim Nguyen',
       category: 'High School',
+      title: 'Boston Latin School',
       imageUrl: process.env.PUBLIC_URL + 'tim.jpg',
     },
     {
@@ -140,7 +142,22 @@ const people = [
         name: 'Hugo Buurmeijer',
         category: 'Alumni',
         future: 'Master student from Stanford University'
-      }
+    },
+    {
+    id: 19,
+    name: 'Haocheng Yin',
+    category: 'Masters and Undergrads',
+    title: 'Master student from ETH Zurich',
+    imageUrl: process.env.PUBLIC_URL + 'haocheng_yin.jpg'
+    },
+    {
+    id: 20,
+    name: 'Kevin Kasa',
+    category: 'Masters and Undergrads',
+    title: 'Master student from University of Guelph',
+    bioLink: 'https://kevinkasa.github.io/',
+    imageUrl: process.env.PUBLIC_URL + 'kevin_kasa.png'
+    }
     
 
   ];

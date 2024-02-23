@@ -5,11 +5,24 @@ import './RecentNews.css';
 // If you want to add hyperlinks, just create dictionary with keys 'text' and 'link', otherwise just create text.
 const newsItems = [
     { 
+        date: 'Feb 23, 2024', 
+        content: [
+          { text: 'Zhiyu presents '},
+          { text: 'paper on improving adaptive online learning using refined discretization', link: 'https://arxiv.org/pdf/2309.16044.pdf'},
+          { text: ' in the International Conference on Algorithmic Learning Theory (ALT)'}
+        ],},
+    { 
+        date: 'Feb 20, 2024', 
+        content: [
+          { text: 'SIM-Sync', link: 'https://arxiv.org/pdf/2309.05184.pdf'},
+          { text: ' accepted to IEEE Robotics and Automation Letters, congrats to Xihang!' }
+        ],},
+    { 
         date: 'Feb 6, 2024', 
         content: [
           { text: 'Preprint on ' },
           { text: 'discounted adaptive online prediction', link: 'https://arxiv.org/abs/2402.02720' },
-          { text: ' as a downstream application, we give a better algorithm for performing online adaptive conformal prediction!' }
+          { text: '. As a downstream application, we give a better algorithm for performing online adaptive conformal prediction!' }
         ],},
     { 
         date: 'Jan 31, 2024', 
