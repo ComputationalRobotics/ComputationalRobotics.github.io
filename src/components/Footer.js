@@ -6,9 +6,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-container">
         <div className="footer-left">
-          <p>Harvard Computational Robotics Lab</p>
-          <p>Harvard John A. Paulson School of Engineering and Applied Sciences</p>
-          <p>150 Western Ave, Boston, MA <span class="postal-code">02134</span></p>
+          <p>Copyright 2024 Computational Robotics Group, School of Engineering and Applied Sciences, Harvard University</p>
         </div>
       </div>
     </div>
