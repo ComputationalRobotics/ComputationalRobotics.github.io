@@ -142,6 +142,17 @@ section h2 {
     margin-bottom: 20px;
 }
 
+.alumni-list {
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Aligns items to the start of the container */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  gap: 3em; /* Adjust the space between cards as needed */
+}
+
 @media (max-width: 462px) {
     .main-content {
         margin-top: -1.5em;

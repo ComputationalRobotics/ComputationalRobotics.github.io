@@ -1,10 +1,10 @@
 import React from 'react';
-import './ContactPage.css';
+import './JoiningPage.css';
 
-const ContactPage = () => {
+const JoiningPage = () => {
     return (
-        <div className="contacts-page">
-            <div className="contacts-container">
+        <div className="joining-page">
+            <div className="joining-container">
                 <h2>Prospective Students</h2>
                 <p>For PhD opportunities, please apply to the PhD program at Harvard SEAS (e.g., in EE/CS/AM/ME) and list me as a potential advisor. I am also open to taking (undergraduate or graduate) research interns.</p>
                 <p><strong>This year I am particularly looking for a strong candidate in statistics and machine learning.</strong></p>
@@ -15,5 +15,5 @@ const ContactPage = () => {
     );
 };
 
-export default ContactPage;
+export default JoiningPage;
 

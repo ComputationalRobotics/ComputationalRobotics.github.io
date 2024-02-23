@@ -4,7 +4,7 @@ import Header from './components/Header'; // Importing Header component to be pl
 import HomePage from './components/HomePage'; // Importing HomePage component for the root path
 import PeoplePage from './components/PeoplePage'; // Importing PeoplePage component for '/people' path
 import ResearchPage from './components/ResearchPage'; // Importing ResearchPage component for '/research' path
-import ContactPage from './components/ContactPage'; // Importing ContactPage component for '/contact' path
+import JoiningPage from './components/JoiningPage'; // Importing JoiningPage component for '/contact' path
 import PublicationsPage from './components/PublicationsPage'; // Importing PublicationsPage component for '/publications' path
 import Footer from './components/Footer'; // Importing Footer component to be placed at the bottom of every page
 
@@ -23,7 +23,7 @@ function App() {
           <Route path="/people" element={<PeoplePage />} />
         {/*  <Route path="/research" element={<ResearchPage />} /> */}
           <Route path="/publications" element={<PublicationsPage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/joining" element={<JoiningPage />} />
           <Route path="/" element={<HomePage />} />
         </Routes>
       </main>

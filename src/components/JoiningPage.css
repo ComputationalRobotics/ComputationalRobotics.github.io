@@ -1,11 +1,11 @@
-.contacts-page {
+.joining-page {
     display: flex;
     justify-content: center;
     padding: 20px;
     background-color: #f5f5f5; /* or any color you want for the background */
 }
 
-.contacts-container {
+.joining-container {
     max-width: 1150px;
     text-align: left;
     background-color: #fff; /* or any color you want for the text container */
@@ -15,16 +15,16 @@
     margin: auto;
 }
 
-.contacts-container h2 {
+.joining-container h2 {
     color: #A41034; /* or any color you want for the heading */
     margin-bottom: 1rem;
 }
 
-.contacts-container p {
+.joining-container p {
     color: #333; /* or any color you want for the paragraph text */
     line-height: 1.6;
 }
 
-.contacts-container p strong {
+.joining-container p strong {
     color: #A41034; /* or any color you want for the emphasized text */
 }

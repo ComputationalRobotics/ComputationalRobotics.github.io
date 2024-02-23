@@ -92,8 +92,9 @@ const people = [
       id: 12,
       name: 'Jiarui Li',
       category: 'Alumni',
-      imageUrl: process.env.PUBLIC_URL + 'jiarui.jpg',
-      bioLink: 'https://jrli.org/'
+      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      bioLink: 'https://jrli.org/',
+      future: 'Undergrad from PKU, Next: PhD at MIT'
     },
     {
       id: 13,
@@ -255,13 +256,12 @@ const PeoplePage = () => {
                     </section>
                     <section id="alumni">
                         <h2>Alumni</h2>
-                        <div className="people-list">
+                        <div className="alumni-list">
                             {alumni.map(person => (
-                                <div className="people-member" key={person.id}>
-                                    <img src={person.imageUrl} alt={person.name} />
+                                <div key={person.id}>
                                     <div className="people-info">
                                         <a href={person.bioLink} className="people-name-link">
-                                            <h3>{person.name}</h3>
+                                        <h3>{person.name}{person.future && ` (${person.future})`}</h3>
                                         </a>
                                         <p>{person.title}</p>
                                         {/* Add more links or information if needed */}
