@@ -10,12 +10,6 @@
 }
 
 /* Additional layout and spacing for the title, search bar, and tag filter */
-.news-title {
-    text-align: center;
-    margin-bottom: 2em; /* Space below the title */
-    font-size: 2em;
-    color: #333;
-}
 
 /* Layout for the tag filter section */
 .tag-filter {

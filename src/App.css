@@ -18,7 +18,7 @@
 html, body, #root {
   height: 100%;
   margin: 0;
-  font-family: "Open Sans", sans-serif; /* Add this line */
+  font-family: "Helvetica Neue", sans-serif; /* Add this line */
 }
 
 #root {

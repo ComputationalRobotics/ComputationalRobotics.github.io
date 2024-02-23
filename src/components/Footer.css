@@ -1,6 +1,7 @@
 .footer {
   padding: 2em;
   padding-bottom: 1em; /* Increase this value to add more space, or decrease it to reduce space */
+  position: relative;
 }
 
 .footer-heading-container {

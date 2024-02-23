@@ -12,10 +12,11 @@
     margin-bottom: 1em;
     text-align: center; /* Centers the title */
     font-size: 2em;
+    color: #4a4a4a;
 }
 
 .news-items-container {
-    max-width: 900px; /* Adjust this value as needed for your max-width */
+    max-width: 1000px; /* Adjust this value as needed for your max-width */
     text-align: left;
     margin-left: auto ; /* Centers the section horizontally */
     margin-right: auto; /* Centers the section horizontally */
@@ -25,10 +26,10 @@
     display: flex;
     margin-bottom: 1.5rem; /* Space between news items */
     align-items: baseline; /* Aligns items on their baseline */
+    color: #4a4a4a;
 }
 
 .news-date {
-    font-weight: bold;
     flex-basis: 150px; /* Adjust the width as necessary */
     flex-shrink: 0; /* Prevents the date from shrinking */
     margin-right: 1rem; /* Space after the date */

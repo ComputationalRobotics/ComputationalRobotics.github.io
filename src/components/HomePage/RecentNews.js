@@ -70,7 +70,7 @@ const newsItems = [
   const RecentNews = () => {
     return (
         <div className="news-section">
-            <h2 className="news-title">News</h2>
+            <p className="news-title">News</p>
             <div className="news-items-container">
                 {newsItems.map((item, index) => (
                     <div key={index} className="news-item">

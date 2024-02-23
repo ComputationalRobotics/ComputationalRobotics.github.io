@@ -6,7 +6,7 @@ const faculty = [
       id: 1,
       name: 'Heng Yang',
       title: 'Assistant Professor',
-      imageUrl: process.env.PUBLIC_URL + 'hank.png',
+      imageUrl: process.env.PUBLIC_URL + 'hank.jpg',
       bioLink: 'https://hankyang.seas.harvard.edu/',
       // Other links or additional information can be added here
     },
@@ -26,20 +26,23 @@ const people = [
       id: 2,
       name: 'Shucheng Kang',
       category: 'PhD',
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg'
+      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      title: "Electrical Engineering"
     },
     {
       id: 3,
       name: 'David Bombara',
       category: 'PhD',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
-      bioLink: 'https://dbombara.github.io/welcome'
+      bioLink: 'https://dbombara.github.io/welcome',
+      title: "Electrical Engineering"
     },
     {
       id: 4,
       name: 'Han Qi',
       category: 'PhD',
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg'
+      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      title: "Computer Science"
     },
     {
       id: 5,
@@ -94,31 +97,36 @@ const people = [
       category: 'Alumni',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
       bioLink: 'https://jrli.org/',
-      future: 'Undergrad from PKU, Next: PhD at MIT'
+      future: 'Undergrad from Peking University, Next: PhD Student at MIT'
     },
     {
       id: 13,
       name: 'Xiaoyang Xu',
       category: 'Alumni',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      future: 'Undergrad from University of Science and Technology China'
     },
     {
       id: 14,
       name: 'Xihang Yu',
       category: 'Alumni',
+      bioLink: 'https://xihangyu630.github.io/',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      future: 'Undergrad from University of Michigan'
     },
     {
       id: 15,
       name: 'Yukai Tang',
       category: 'Alumni',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      future: 'Undergrad from Tsinghua University'
     },
     {
       id: 16,
       name: 'Haoyu Han',
       category: 'Alumni',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      future: 'Undergrad from University of Science and Technology China, Next: PhD Student at Harvard'
     },
     {
         id: 17,
@@ -126,7 +134,14 @@ const people = [
         title: 'Harvard College',
         category: 'Masters and Undergrads',
         imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+    },
+    {
+        id: 18,
+        name: 'Hugo Buurmeijer',
+        category: 'Alumni',
+        future: 'Master student from Stanford University'
       }
+    
 
   ];
   
@@ -261,7 +276,7 @@ const PeoplePage = () => {
                                 <div key={person.id}>
                                     <div className="people-info">
                                         <a href={person.bioLink} className="people-name-link">
-                                        <h3>{person.name}{person.future && ` (${person.future})`}</h3>
+                                        <p>{person.name}{person.future && ` (${person.future})`}</p>
                                         </a>
                                         <p>{person.title}</p>
                                         {/* Add more links or information if needed */}

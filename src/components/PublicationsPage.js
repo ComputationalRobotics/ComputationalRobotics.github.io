@@ -25,11 +25,29 @@ import './PublicationsPage.css';
 
 const allPublications = [
     { 
+      id: 8, 
+      title: 'Object Pose Estimation with Statistical Guarantees: Conformal Keypoint Detection and Geometric Uncertainty Propagation',
+      journal_year: 'IEEE Conf. on Computer Vision and Pattern Recognition (CVPR) 2023', 
+      people: ['Heng Yang', 'Marco Pavone'], 
+      tags: ['Uncertainty Quantification', 'Computer Vision and Perception'],
+      pdfLink: 'https://arxiv.org/pdf/2303.12246.pdf',
+      videoLink: 'https://youtu.be/NWUf4hd571E',
+      codeLink: 'https://github.com/ComputationalRobotics/PURSE'
+    },
+    { 
+      id: 7, 
+      title: 'Improving Adaptive Online Learning Using Refined Discretization',
+      journal_year: 'International Conference on Algorithmic Learning Theory (ALT) 2024', 
+      people: ['Zhiyu Zhang', 'Heng Yang', 'Ashok Cutkosky', 'Ioannis Ch Paschalidis'], 
+      tags: ['Online Learning'],
+      pdfLink: 'https://arxiv.org/pdf/2309.16044.pdf'
+    },
+    { 
       id: 6, 
       title: 'Discounted Adaptive Online Prediction',
       journal_year: 'arXiv preprint 2024', 
       people: ['Zhiyu Zhang', 'David Bombara', 'Heng Yang'], 
-      tags: ['Online Learning'],
+      tags: ['Online Learning', 'Uncertainty Quantification', 'Lifelong Learning'],
       pdfLink: 'https://arxiv.org/pdf/2402.02720.pdf'
     },
     {
@@ -37,7 +55,7 @@ const allPublications = [
       title: 'Sparse Polynomial Optimization with Unbounded Sets',
       journal_year: 'arXiv preprint 2024',
       people: ['Lei Huang', 'Shucheng Kang', 'Jie Wang', 'Heng Yang'],
-      tags: ['Optimization'],
+      tags: ['Semidefinite Optimization and Relaxation', 'Optimal Control'],
       pdfLink: 'https://arxiv.org/pdf/2401.15837.pdf' 
     },
     { 
@@ -45,7 +63,7 @@ const allPublications = [
       title: 'On the Nonsmooth Geometry and Neural Approximation of the Optimal Value Function of Infinite-Horizon Pendulum Swing-up', 
       journal_year: 'arXiv preprint 2024', 
       people: ['Haoyu Han', 'Heng Yang'], 
-      tags: ['Control'],
+      tags: ['Optimal Control'],
       pdfLink: 'https://arxiv.org/pdf/2312.17467.pdf'
     },
     { 
@@ -53,7 +71,7 @@ const allPublications = [
       title: 'Uncertainty Quantification of Set-Membership Estimation in Control and Perception: Revisiting the Minimum Enclosing Ellipsoid', 
       journal_year: 'arXiv preprint 2023', 
       people: ['Yukai Tang', 'Jean-Bernard Lasserre', 'Heng Yang'], 
-      tags: ['Control', 'Perception'],
+      tags: ['Uncertainty Quantification', 'Semidefinite Optimization and Relaxation', 'Computer Vision and Perception', 'Set-Membership Estimation'],
       pdfLink: 'https://arxiv.org/pdf/2311.15962.pdf',
       // videoLink not provided for this publication
       // highlightLink not provided for this publication
@@ -62,9 +80,9 @@ const allPublications = [
     { 
       id: 2, 
       title: 'SIM-Sync: From Certifiably Optimal Synchronization over the 3D Similarity Group to Scene Reconstruction with Learned Depth', 
-      journal_year: 'arXiv preprint 2023', 
+      journal_year: 'IEEE Robotics and Automation Letters (RA-L) 2024', 
       people: ['Xihang Yu', 'Heng Yang'], 
-      tags: ['Semidefinite Programming', 'Optimization'],
+      tags: ['Semidefinite Optimization and Relaxation', 'Computer Vision and Perception'],
       pdfLink: 'https://arxiv.org/pdf/2309.05184.pdf',
       // highlightLink not provided for this publication
       // others not provided
@@ -72,9 +90,9 @@ const allPublications = [
     { 
       id: 1, 
       title: 'Verification and Synthesis of Robust Control Barrier Functions: Multilevel Polynomial Optimization and Semidefinite Relaxation', 
-      journal_year: 'IEEE Conf. on Decision and Control (CDC) 2023', 
+      journal_year: 'IEEE Conference on Decision and Control (CDC) 2023', 
       people: ['Shucheng Kang', 'Yuxiao Chen', 'Heng Yang', 'Marco Pavone'], 
-      tags: ['Semidefinite Programming', 'Optimization'],
+      tags: ['Semidefinite Optimization and Relaxation', 'Control Theory'],
       pdfLink: 'https://arxiv.org/pdf/2303.10081.pdf'
       // highlightLink not provided for this publication
       // others not provided
