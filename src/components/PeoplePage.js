@@ -18,7 +18,7 @@ const people = [
       name: 'Zhiyu Zhang',
       title: 'Postdoc',
       category: 'research-staff-and-postdocs', 
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      imageUrl: process.env.PUBLIC_URL + 'Zhiyu.jpg',
       bioLink: 'https://zhiyuzz.github.io/',
       // Other links or additional information can be added here
     },
@@ -26,7 +26,7 @@ const people = [
       id: 2,
       name: 'Shucheng Kang',
       category: 'PhD',
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      imageUrl: process.env.PUBLIC_URL + 'Shucheng.jpg',
       title: "Electrical Engineering"
     },
     {
@@ -41,7 +41,8 @@ const people = [
       id: 4,
       name: 'Han Qi',
       category: 'PhD',
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      imageUrl: process.env.PUBLIC_URL + 'Han.png',
+      bioLink: 'https://han20192019.github.io/',
       title: "Computer Science"
     },
     {
@@ -49,7 +50,7 @@ const people = [
       name: 'Alex Tong',
       title: 'Visiting undergrad from UC Berkeley',
       category: 'Masters and Undergrads',
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg'
+      imageUrl: process.env.PUBLIC_URL + 'alex.png'
     },
     {
       id: 6,
@@ -135,7 +136,7 @@ const people = [
         name: 'Aneesh Muppidi',
         title: 'Harvard College',
         category: 'Masters and Undergrads',
-        imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+        imageUrl: process.env.PUBLIC_URL + 'aneesh.jpg',
     },
     {
         id: 18,
