@@ -19,11 +19,12 @@
     "scripts": {
         "start": "react-scripts start",
         "predeploy": "npm run build",
-        "deploy": "cp CNAME build/ && gh-pages -b master -d build",
+        "deploy": "cp build/index.html build/404.html && cp CNAME build/ && gh-pages -b master -d build",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
+    
     "eslintConfig": {
         "extends": [
             "react-app",
