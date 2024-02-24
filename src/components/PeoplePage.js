@@ -42,6 +42,7 @@ const people = [
       name: 'Han Qi',
       category: 'PhD',
       imageUrl: process.env.PUBLIC_URL + 'Han.png',
+      bioLink: 'https://han20192019.github.io/',
       title: "Computer Science"
     },
     {
