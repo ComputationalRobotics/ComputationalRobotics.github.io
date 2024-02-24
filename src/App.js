@@ -8,23 +8,21 @@ import JoiningPage from './components/JoiningPage'; // Importing JoiningPage com
 import PublicationsPage from './components/PublicationsPage'; // Importing PublicationsPage component for '/publications' path
 import Footer from './components/Footer'; // Importing Footer component to be placed at the bottom of every page
 
-
 // Importing the main stylesheet for styling the app
 import './App.css';
 
 // Defining the main App component
 function App() {
   return (
-    // Router component to wrap around the application and enable routing
     <Router>
       <Header /> {/* Placing the Header component that will appear across all routes*/}
       <main> {/* This main tag will wrap the Routes and allow for the sticky footer */}
-        <Routes> 
-          <Route path="/people" element={<PeoplePage />} />
-        {/*  <Route path="/research" element={<ResearchPage />} /> */}
-          <Route path="/publications" element={<PublicationsPage />} />
-          <Route path="/joining" element={<JoiningPage />} />
-          <Route path="/" element={<HomePage />} />
+        <Routes>
+          <Route path={process.env.PUBLIC_URL + "/people"} element={<PeoplePage />} />
+          {/* <Route path={process.env.PUBLIC_URL + "/research"} element={<ResearchPage />} /> */}
+          <Route path={process.env.PUBLIC_URL + "/publications"} element={<PublicationsPage />} />
+          <Route path={process.env.PUBLIC_URL + "/joining"} element={<JoiningPage />} />
+          <Route path={process.env.PUBLIC_URL + "/"} element={<HomePage />} />
         </Routes>
       </main>
       <Footer />
@@ -33,4 +31,3 @@ function App() {
 }
 
 export default App;
-
