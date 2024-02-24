@@ -85,6 +85,7 @@ const people = [
       name: 'Tim Nguyen',
       category: 'High School',
       title: 'Boston Latin School',
+      bioLink: 'thisistim.dev',
       imageUrl: process.env.PUBLIC_URL + 'tim.jpg',
     },
     {
