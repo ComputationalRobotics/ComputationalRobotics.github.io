@@ -25,6 +25,15 @@ import './PublicationsPage.css';
 
 const allPublications = [
   { 
+    id: 9, 
+    title: 'CLOSURE: Fast Quantification of Pose Uncertainty Sets',
+    journal_year: 'arXiv preprint 2024', 
+    people: ['Yihuai Gao', 'Yukai Tang', 'Han Qi', 'Heng Yang'], 
+    tags: ['Uncertainty Quantification', 'Computer Vision and Perception', 'Set-Membership Estimation', 'Conformal Prediction'],
+    pdfLink: 'https://arxiv.org/pdf/2403.09990.pdf',
+    year: 2024,
+  },
+  { 
     id: 8, 
     title: 'Object Pose Estimation with Statistical Guarantees: Conformal Keypoint Detection and Geometric Uncertainty Propagation',
     journal_year: 'IEEE Conf. on Computer Vision and Pattern Recognition (CVPR) 2023', 
