@@ -8,7 +8,7 @@ const newsItems = [
     date: 'Mar 18, 2024', 
     content: [
       { text: 'Preprint: '},
-      { text: 'a GPU accelerated algorithm called CLOSURE', link: 'https://arxiv.org/pdf/2303.12246.pdf'},
+      { text: 'a GPU accelerated algorithm called CLOSURE', link: 'https://arxiv.org/pdf/2403.09990.pdf'},
       { text: ' that quantifies pose uncertainty sets in real time'}
     ],},
     { 
