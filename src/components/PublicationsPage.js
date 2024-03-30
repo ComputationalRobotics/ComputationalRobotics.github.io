@@ -74,7 +74,7 @@ const allPublications = [
   { 
     id: 4, 
     title: 'On the Nonsmooth Geometry and Neural Approximation of the Optimal Value Function of Infinite-Horizon Pendulum Swing-up', 
-    journal_year: 'arXiv preprint 2024', 
+    journal_year: 'Learning for Dynamics & Control (L4DC) 2024', 
     people: ['Haoyu Han', 'Heng Yang'], 
     tags: ['Optimal Control'],
     pdfLink: 'https://arxiv.org/pdf/2312.17467.pdf',
@@ -83,11 +83,11 @@ const allPublications = [
   { 
     id: 3, 
     title: 'Uncertainty Quantification of Set-Membership Estimation in Control and Perception: Revisiting the Minimum Enclosing Ellipsoid', 
-    journal_year: 'arXiv preprint 2023', 
+    journal_year: 'Learning for Dynamics & Control (L4DC) 2024',
     people: ['Yukai Tang', 'Jean-Bernard Lasserre', 'Heng Yang'], 
     tags: ['Uncertainty Quantification', 'Semidefinite Optimization and Relaxation', 'Computer Vision and Perception', 'Set-Membership Estimation'],
     pdfLink: 'https://arxiv.org/pdf/2311.15962.pdf',
-    year: 2023,
+    year: 2024,
     // videoLink not provided for this publication
     // highlightLink not provided for this publication
     // others also not provided
