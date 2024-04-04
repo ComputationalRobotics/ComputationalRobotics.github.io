@@ -19,7 +19,10 @@ import './PublicationsPage.css';
     highlightLink: 'https://www.google.com',
     codeLink: 'https://www.google.com',
     awardLink: 'https://www.google.com',
-    newsLink: 'https://www.google.com'
+    newsLink: 'https://www.google.com',
+    year: 2024,
+    abbrev: 'CVPR',
+    award: 'Oral'
   },
 */
 
@@ -31,7 +34,7 @@ const allPublications = [
     people: ['Yihuai Gao', 'Yukai Tang', 'Han Qi', 'Heng Yang'], 
     tags: ['Uncertainty Quantification', 'Computer Vision and Perception', 'Set-Membership Estimation', 'Conformal Prediction'],
     pdfLink: 'https://arxiv.org/pdf/2403.09990.pdf',
-    year: 2024,
+    year: 2024
   },
   { 
     id: 8, 
@@ -52,6 +55,7 @@ const allPublications = [
     tags: ['Online Learning'],
     pdfLink: 'https://arxiv.org/pdf/2309.16044.pdf',
     year: 2024,
+    abbrev: 'ALT'
   },
   { 
     id: 6, 
@@ -88,6 +92,8 @@ const allPublications = [
     tags: ['Uncertainty Quantification', 'Semidefinite Optimization and Relaxation', 'Computer Vision and Perception', 'Set-Membership Estimation'],
     pdfLink: 'https://arxiv.org/pdf/2311.15962.pdf',
     year: 2024,
+    abbrev: 'L4DC',
+    award: 'Oral'
     // videoLink not provided for this publication
     // highlightLink not provided for this publication
     // others also not provided

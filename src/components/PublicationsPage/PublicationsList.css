@@ -17,6 +17,54 @@
     margin-bottom: 10px;
 }
 
+.publication-row {
+    display: flex;
+    align-items: flex-start;
+    position: relative; /* Needed for absolute positioning of the abbrev box */
+    /* padding-left: 60px; /* Adjust based on the width of your abbrev-box */
+}
+
+.abbreviation-wrapper {
+    width: 8em; /* Fixed width: abbrev box width plus margin */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-shrink: 0; /* Prevent shrinking */
+    /* margin-right: 5em; /* Space between this wrapper and the publication details */
+}
+
+.abbrev-box {
+    left: 0; /* Aligns the abbrev-box to the far left */
+    top: 0;
+    margin-left: 0em;
+    margin-right: auto; /* Pushes the box to the left and margin to the right */
+    background-color: #A41034; /* Light grey background, change as needed */
+    border: 1px solid #ccc; /* Light grey border, change as needed */
+    text-align: center;
+    padding: 0.2em 0.8em;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 0.8em;
+
+}
+
+.award-box {
+    background-color: #ffd700; /* Example color for awards, like gold */
+    padding: 0.2em 0.8em;
+    margin-top: 0.4em; /* Spacing between the abbrev-box and the award-box */
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 0.8em;
+    margin-right: auto;
+
+    /* Other styles as needed */
+}
+
 .pubtitle {
     font-weight: bold;
     color: #333; 
