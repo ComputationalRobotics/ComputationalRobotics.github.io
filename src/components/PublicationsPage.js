@@ -46,6 +46,8 @@ const allPublications = [
     videoLink: 'https://youtu.be/NWUf4hd571E',
     codeLink: 'https://github.com/ComputationalRobotics/PURSE',
     year: 2023,
+    abbrev: 'CVPR',
+    award: 'Highlight'
   },
   { 
     id: 7, 
@@ -83,6 +85,7 @@ const allPublications = [
     tags: ['Optimal Control'],
     pdfLink: 'https://arxiv.org/pdf/2312.17467.pdf',
     year: 2024,
+    abbrev: 'L4DC'
   },
   { 
     id: 3, 
@@ -105,7 +108,8 @@ const allPublications = [
     people: ['Xihang Yu', 'Heng Yang'], 
     tags: ['Semidefinite Optimization and Relaxation', 'Computer Vision and Perception'],
     pdfLink: 'https://arxiv.org/pdf/2309.05184.pdf',
-    year: 2024
+    year: 2024,
+    abbrev: 'RA-L'
     // highlightLink not provided for this publication
     // others not provided
   },
@@ -116,7 +120,8 @@ const allPublications = [
     people: ['Shucheng Kang', 'Yuxiao Chen', 'Heng Yang', 'Marco Pavone'], 
     tags: ['Semidefinite Optimization and Relaxation', 'Control Theory'],
     pdfLink: 'https://arxiv.org/pdf/2303.10081.pdf',
-    year: 2023
+    year: 2023,
+    abbrev: 'CDC'
     // highlightLink not provided for this publication
     // others not provided
   },
