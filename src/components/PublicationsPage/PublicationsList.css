@@ -38,8 +38,7 @@
     top: 0;
     margin-left: 0em;
     margin-right: auto; /* Pushes the box to the left and margin to the right */
-    background-color: #A41034; /* Light grey background, change as needed */
-    border: 1px solid #ccc; /* Light grey border, change as needed */
+    background-color: #ed1b34; 
     text-align: center;
     padding: 0.2em 0.8em;
     text-decoration: none;
