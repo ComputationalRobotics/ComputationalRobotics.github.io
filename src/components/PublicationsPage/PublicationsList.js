@@ -23,7 +23,7 @@ const PublicationsList = ({ publications, searchQuery, selectedTags }) => {
         <div className="publications-list">
             {filteredPublications.map(pub => (
                 <div key={pub.id} className="publication-row">
-                    <div className="abbreviation-wrapper">
+                    <div className="box-wrapper">
                         <div className="abbrev-box">{pub.abbrev || 'Preprint'}</div>
                         {pub.award && <div className="award-box">{pub.award}</div>}
                     </div>

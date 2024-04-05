@@ -24,7 +24,7 @@
     /* padding-left: 60px; /* Adjust based on the width of your abbrev-box */
 }
 
-.abbreviation-wrapper {
+.box-wrapper {
     width: 8em; /* Fixed width: abbrev box width plus margin */
     display: flex;
     justify-content: flex-start;
@@ -118,4 +118,28 @@
 
 .button:hover {
     opacity: 0.6;
+}
+
+@media (max-width: 802px) {
+    
+    .publication-row {
+        /* Change the direction to column so items stack vertically */
+        flex-direction: column;
+
+    }
+
+    .box-wrapper {
+        /* Align the boxes horizontally */
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .abbrev-box, .award-box {
+        align-self: center;
+        margin-top: 0em;
+    }
+
+    .button {
+        margin-bottom: 0.5em;
+    }
 }
