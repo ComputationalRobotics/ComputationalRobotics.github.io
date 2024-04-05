@@ -38,7 +38,7 @@
     top: 0;
     margin-left: 0em;
     margin-right: auto; /* Pushes the box to the left and margin to the right */
-    background-color: #ed1b34; 
+    background-color: #64b5f6; /* Blue */
     text-align: center;
     padding: 0.2em 0.8em;
     text-decoration: none;
@@ -96,7 +96,7 @@
 }
 
 .video {
-    background-color: #64b5f6; /* Blue */
+    background-color: #ed1b34; 
 }
 
 .highlight {
