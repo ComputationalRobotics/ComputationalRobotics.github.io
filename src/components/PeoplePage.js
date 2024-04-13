@@ -116,7 +116,7 @@ const people = [
       category: 'Alumni',
       bioLink: 'https://xihangyu630.github.io/',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
-      future: 'Undergrad from University of Michigan'
+      future: 'Undergrad from University of Michigan, Next: PhD student at MIT'
     },
     {
       id: 15,
