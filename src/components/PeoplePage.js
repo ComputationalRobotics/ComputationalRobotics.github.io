@@ -143,7 +143,7 @@ const people = [
         id: 18,
         name: 'Hugo Buurmeijer',
         category: 'Alumni',
-        future: 'Master student from Stanford University, Next: PhD student at MIT'
+        future: 'Master student from Stanford University, Next: PhD student at Stanford'
     },
     {
     id: 19,
