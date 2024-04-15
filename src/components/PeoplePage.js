@@ -123,7 +123,7 @@ const people = [
       name: 'Yukai Tang',
       category: 'Alumni',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
-      future: 'Undergrad from Tsinghua University'
+      future: 'Undergrad from Tsinghua University, Next: PhD student at Princeton'
     },
     {
       id: 16,
