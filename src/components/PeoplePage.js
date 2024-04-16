@@ -101,14 +101,14 @@ const people = [
       category: 'Alumni',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
       bioLink: 'https://jrli.org/',
-      future: 'Undergrad from Peking University, Next: PhD Student at MIT'
+      future: 'Undergrad from Peking University, Next: PhD student at MIT'
     },
     {
       id: 13,
       name: 'Xiaoyang Xu',
       category: 'Alumni',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
-      future: 'Undergrad from University of Science and Technology China'
+      future: 'Undergrad from University of Science and Technology China, Next: PhD student at UC Santa Barbara'
     },
     {
       id: 14,
