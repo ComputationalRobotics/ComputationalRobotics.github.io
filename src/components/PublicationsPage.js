@@ -62,11 +62,12 @@ const allPublications = [
   { 
     id: 6, 
     title: 'Discounted Adaptive Online Prediction',
-    journal_year: 'arXiv preprint 2024', 
+    journal_year: 'International Conference on Machine Learning (ICML) 2024', 
     people: ['Zhiyu Zhang', 'David Bombara', 'Heng Yang'], 
     tags: ['Online Learning', 'Uncertainty Quantification', 'Lifelong Learning', 'Conformal Prediction'],
     pdfLink: 'https://arxiv.org/pdf/2402.02720.pdf',
     year: 2024,
+    abbrev: 'ICML'
   },
   {
     id: 5,
