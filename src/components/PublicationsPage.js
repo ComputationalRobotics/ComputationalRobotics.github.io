@@ -30,11 +30,12 @@ const allPublications = [
   { 
     id: 9, 
     title: 'CLOSURE: Fast Quantification of Pose Uncertainty Sets',
-    journal_year: 'arXiv preprint 2024', 
+    journal_year: 'Robotics: Science and Systems 2024', 
     people: ['Yihuai Gao', 'Yukai Tang', 'Han Qi', 'Heng Yang'], 
     tags: ['Uncertainty Quantification', 'Computer Vision and Perception', 'Set-Membership Estimation', 'Conformal Prediction'],
     pdfLink: 'https://arxiv.org/pdf/2403.09990.pdf',
-    year: 2024
+    year: 2024,
+    abbrev: 'RSS'
   },
   { 
     id: 8, 
