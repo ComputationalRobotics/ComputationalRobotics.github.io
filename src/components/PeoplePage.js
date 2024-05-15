@@ -100,7 +100,7 @@ const people = [
       name: 'Jiarui Li',
       category: 'Alumni',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
-      bioLink: 'https://jrli.org/',
+      bioLink: 'https://jiaruili.com/',
       future: 'Undergrad from Peking University, Next: PhD student at MIT'
     },
     {
