@@ -28,6 +28,15 @@ import './PublicationsPage.css';
 
 const allPublications = [
   { 
+    id: 10, 
+    title: 'Pick up the PACE: A Parameter-Free Optimizer for Lifelong Reinforcement Learning',
+    journal_year: 'arXiv preprint 2024', 
+    people: ['Aneesh Muppidi', 'Zhiyu Zhang', 'Heng Yang'], 
+    tags: ['Lifelong Learning', 'Online Learning', 'Reinforcement Learning'],
+    pdfLink: 'https://arxiv.org/pdf/2405.16642',
+    year: 2024,
+  },
+  { 
     id: 9, 
     title: 'CLOSURE: Fast Quantification of Pose Uncertainty Sets',
     journal_year: 'Robotics: Science and Systems 2024', 
