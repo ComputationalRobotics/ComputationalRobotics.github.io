@@ -28,6 +28,15 @@ import './PublicationsPage.css';
 
 const allPublications = [
   { 
+    id: 11, 
+    title: 'Adapting Conformal Prediction to Distribution Shifts Without Labels',
+    journal_year: 'arXiv preprint 2024', 
+    people: ['Kevin Kasa', 'Zhiyu Zhang', 'Heng Yang', 'Graham W. Taylor'], 
+    tags: ['Lifelong Learning', 'Conformal Prediction', 'Uncertainty Quantification'],
+    pdfLink: 'https://arxiv.org/pdf/2406.01416',
+    year: 2024,
+  },
+  { 
     id: 10, 
     title: 'Pick up the PACE: A Parameter-Free Optimizer for Lifelong Reinforcement Learning',
     journal_year: 'arXiv preprint 2024', 
