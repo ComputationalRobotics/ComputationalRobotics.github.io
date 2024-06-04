@@ -44,6 +44,7 @@ const allPublications = [
     tags: ['Lifelong Learning', 'Online Learning', 'Reinforcement Learning'],
     pdfLink: 'https://arxiv.org/pdf/2405.16642',
     year: 2024,
+    codeLink: 'https://github.com/ComputationalRobotics/PACE',
   },
   { 
     id: 9, 
