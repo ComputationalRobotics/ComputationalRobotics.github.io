@@ -106,6 +106,7 @@ const allPublications = [
     tags: ['Optimal Control'],
     pdfLink: 'https://arxiv.org/pdf/2312.17467.pdf',
     year: 2024,
+    codeLink: 'https://github.com/ComputationalRobotics/InvertedPendulumOptimalValue',
     abbrev: 'L4DC'
   },
   { 
