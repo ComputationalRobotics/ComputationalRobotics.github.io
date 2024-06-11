@@ -28,6 +28,16 @@ import './PublicationsPage.css';
 
 const allPublications = [
   { 
+    id: 12, 
+    title: 'Fast and Certifiable Trajectory Optimization',
+    journal_year: 'arXiv preprint 2024', 
+    people: ['Shucheng Kang', 'Xiaoyang Xu', 'Jay Sarva', 'Ling Liang', 'Heng Yang'], 
+    tags: ['Optimal Control', 'Semidefinite Optimization and Relaxation'],
+    pdfLink: 'https://arxiv.org/abs/2406.05846',
+    year: 2024,
+    videoLink: 'https://computationalrobotics.seas.harvard.edu/project-strom/',
+  },
+  { 
     id: 11, 
     title: 'Adapting Conformal Prediction to Distribution Shifts Without Labels',
     journal_year: 'arXiv preprint 2024', 
