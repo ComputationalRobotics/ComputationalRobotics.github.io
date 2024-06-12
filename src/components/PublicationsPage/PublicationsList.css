@@ -115,6 +115,10 @@
     background-color: #26a69a; /* Teal */
 }
 
+.project {
+    background-color: #eb7d00; /* Orange */
+}
+
 .button:hover {
     opacity: 0.6;
 }

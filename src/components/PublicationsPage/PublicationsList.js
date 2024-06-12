@@ -38,6 +38,7 @@ const PublicationsList = ({ publications, searchQuery, selectedTags }) => {
                             {pub.codeLink && <a href={pub.codeLink} className="button code" target="_blank" rel="noopener noreferrer">CODE</a>}
                             {pub.awardLink && <a href={pub.awardLink} className="button award" target="_blank" rel="noopener noreferrer">AWARD</a>}
                             {pub.newsLink && <a href={pub.newsLink} className="button news" target="_blank" rel="noopener noreferrer">NEWS</a>}
+                            {pub.projectLink && <a href={pub.projectLink} className="button project" target="_blank" rel="noopener noreferrer">PROJECT</a>}
                         </div>
                         {/* <div>{pub.tags.join(', ')}</div> */}
                     </div>

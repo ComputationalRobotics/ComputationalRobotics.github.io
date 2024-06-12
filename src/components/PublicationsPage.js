@@ -35,7 +35,7 @@ const allPublications = [
     tags: ['Optimal Control', 'Semidefinite Optimization and Relaxation'],
     pdfLink: 'https://arxiv.org/abs/2406.05846',
     year: 2024,
-    videoLink: 'https://computationalrobotics.seas.harvard.edu/project-strom/',
+    projectLink: 'https://computationalrobotics.seas.harvard.edu/project-strom/',
   },
   { 
     id: 11, 
