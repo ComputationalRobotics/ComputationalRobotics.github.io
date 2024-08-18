@@ -30,12 +30,13 @@ const allPublications = [
   { 
     id: 12, 
     title: 'Fast and Certifiable Trajectory Optimization',
-    journal_year: 'arXiv preprint 2024', 
+    journal_year: 'International Workshop on the Algorithmic Foundations of Robotics (WAFR) 2024', 
     people: ['Shucheng Kang', 'Xiaoyang Xu', 'Jay Sarva', 'Ling Liang', 'Heng Yang'], 
     tags: ['Optimal Control', 'Semidefinite Optimization and Relaxation'],
     pdfLink: 'https://arxiv.org/abs/2406.05846',
     year: 2024,
     projectLink: 'https://computationalrobotics.seas.harvard.edu/project-strom/',
+    abbrev: 'WAFR'
   },
   { 
     id: 11, 
