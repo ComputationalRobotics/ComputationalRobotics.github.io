@@ -27,7 +27,8 @@ const people = [
       name: 'Shucheng Kang',
       category: 'PhD',
       imageUrl: process.env.PUBLIC_URL + 'Shucheng.jpg',
-      title: "Electrical Engineering"
+      title: "Electrical Engineering",
+      bioLink: 'https://shuchengkang.github.io/',
     },
     {
       id: 3,
@@ -60,13 +61,6 @@ const people = [
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg'
     },
     {
-      id: 7,
-      name: 'Wency Suo',
-      title: 'Harvard College',
-      category: 'Masters and Undergrads',
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg'
-    },
-    {
       id: 8,
       name: 'Shashwat Rai',
       title: 'Harvard College',
@@ -83,8 +77,8 @@ const people = [
     {
       id: 10,
       name: 'Tim Nguyen',
-      category: 'High School',
-      title: 'Boston Latin School',
+      category: 'Masters and Undergrads',
+      title: 'Visiting undergrad from Boston University',
       bioLink: 'https://thisistim.dev',
       imageUrl: process.env.PUBLIC_URL + 'tim.jpg',
     },
@@ -133,6 +127,13 @@ const people = [
       future: 'Undergrad from University of Science and Technology China, Next: PhD Student at Harvard'
     },
     {
+        id: 7,
+        name: 'Haoyu Han',
+        category: 'PhD',
+        imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+        title: 'Applied Mathematics',
+      },
+    {
         id: 17,
         name: 'Aneesh Muppidi',
         title: 'Harvard College',
@@ -155,11 +156,24 @@ const people = [
     {
     id: 20,
     name: 'Kevin Kasa',
-    category: 'Masters and Undergrads',
-    title: 'Master student from University of Guelph',
-    bioLink: 'https://kevinkasa.github.io/',
-    imageUrl: process.env.PUBLIC_URL + 'kevin_kasa.png'
-    }
+    category: 'Alumni',
+    imageUrl: process.env.PUBLIC_URL + 'kevin_kasa.png',
+    future: 'Master student from University of Guelph'
+    },
+    {
+        id: 21,
+        name: 'Harvey',
+        title: 'Unitree Go2',
+        category: 'Robot',
+        imageUrl: process.env.PUBLIC_URL + 'Go2.png',
+    },
+    {
+        id: 22,
+        name: 'Qin',
+        title: 'Deep Robotics Lite2 (Gift from Zengyi Qin)',
+        category: 'Robot',
+        imageUrl: process.env.PUBLIC_URL + 'Lite2.jpg',
+    },
     
 
   ];
