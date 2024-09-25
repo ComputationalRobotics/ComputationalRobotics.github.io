@@ -49,14 +49,15 @@ const allPublications = [
   },
   { 
     id: 10, 
-    title: 'Pick up the PACE: A Parameter-Free Optimizer for Lifelong Reinforcement Learning',
-    journal_year: 'arXiv preprint 2024', 
+    title: 'Fast TRAC: A Parameter-Free Optimizer for Lifelong Reinforcement Learning',
+    journal_year: 'Conference on Neural Information Processing Systems (NeurIPS) 2024', 
     people: ['Aneesh Muppidi', 'Zhiyu Zhang', 'Heng Yang'], 
     tags: ['Lifelong Learning', 'Online Learning', 'Reinforcement Learning'],
     pdfLink: 'https://arxiv.org/pdf/2405.16642',
     year: 2024,
     codeLink: 'https://github.com/ComputationalRobotics/TRAC',
-    projectLink: 'https://computationalrobotics.seas.harvard.edu/TRAC/'
+    projectLink: 'https://computationalrobotics.seas.harvard.edu/TRAC/',
+    abbrev: 'NeurIPS'
   },
   { 
     id: 9, 
