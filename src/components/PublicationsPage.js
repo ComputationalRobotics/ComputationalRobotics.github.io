@@ -28,6 +28,25 @@ import './PublicationsPage.css';
 
 const allPublications = [
   { 
+    id: 14, 
+    title: 'Control-oriented Clustering of Visual Latent Representation',
+    journal_year: 'arXiv preprint 2024', 
+    people: ['Han Qi', 'Haocheng Yin', 'Heng Yang'], 
+    tags: ['Vision-based Control', 'Optimal Control'],
+    pdfLink: 'https://arxiv.org/abs/2410.05063',
+    year: 2024,
+    projectLink: 'https://computationalrobotics.seas.harvard.edu/ControlOriented_NC/'
+  },
+  { 
+    id: 13, 
+    title: 'The Benefit of Being Bayesian in Online Conformal Prediction',
+    journal_year: 'arXiv preprint 2024', 
+    people: ['Zhiyu Zhang', 'Zhou Lu', 'Heng Yang'], 
+    tags: ['Online Learning', 'Conformal Prediction', 'Uncertainty Quantification'],
+    pdfLink: 'https://arxiv.org/pdf/2410.02561',
+    year: 2024
+  },
+  { 
     id: 12, 
     title: 'Fast and Certifiable Trajectory Optimization',
     journal_year: 'International Workshop on the Algorithmic Foundations of Robotics (WAFR) 2024', 
