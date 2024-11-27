@@ -28,6 +28,16 @@ import './PublicationsPage.css';
 
 const allPublications = [
   { 
+    id: 15, 
+    title: 'PreF3R: Pose-Free Feed-Forward 3D Gaussian Splatting from Variable-length Image Sequence',
+    journal_year: 'arXiv preprint 2024', 
+    people: ['Zequn Chen', 'Jiezhi Yang', 'Heng Yang'], 
+    tags: ['Computer Vision and Perception'],
+    pdfLink: 'https://arxiv.org/pdf/2411.16877',
+    year: 2024,
+    projectLink: 'https://computationalrobotics.seas.harvard.edu/PreF3R/'
+  },
+  { 
     id: 14, 
     title: 'Control-oriented Clustering of Visual Latent Representation',
     journal_year: 'arXiv preprint 2024', 
