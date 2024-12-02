@@ -134,11 +134,12 @@ const allPublications = [
   {
     id: 5,
     title: 'Sparse Polynomial Optimization with Unbounded Sets',
-    journal_year: 'arXiv preprint 2024',
+    journal_year: 'SIAM Journal on Optimization 2024',
     people: ['Lei Huang', 'Shucheng Kang', 'Jie Wang', 'Heng Yang'],
     tags: ['Semidefinite Optimization and Relaxation', 'Optimal Control'],
     pdfLink: 'https://arxiv.org/pdf/2401.15837.pdf',
     year: 2024,
+    abbrev: 'SIOPT'
   },
   { 
     id: 4, 
