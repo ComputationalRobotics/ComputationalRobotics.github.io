@@ -40,12 +40,13 @@ const allPublications = [
   { 
     id: 14, 
     title: 'Control-oriented Clustering of Visual Latent Representation',
-    journal_year: 'arXiv preprint 2024', 
+    journal_year: 'International Conference on Learning Representations 2025', 
     people: ['Han Qi', 'Haocheng Yin', 'Heng Yang'], 
     tags: ['Vision-based Control', 'Optimal Control'],
     pdfLink: 'https://arxiv.org/abs/2410.05063',
-    year: 2024,
-    projectLink: 'https://computationalrobotics.seas.harvard.edu/ControlOriented_NC/'
+    year: 2025,
+    projectLink: 'https://computationalrobotics.seas.harvard.edu/ControlOriented_NC/',
+    abbrev: 'ICLR'
   },
   { 
     id: 13, 
