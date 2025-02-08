@@ -126,6 +126,7 @@ const people = [
         title: 'Harvard College',
         category: 'Masters and Undergrads',
         imageUrl: process.env.PUBLIC_URL + 'aneesh.jpg',
+        bioLink: 'https://aneeshers.github.io/',
     },
     {
         id: 18,
