@@ -166,7 +166,7 @@ const people = [
       name: 'Yulin Li',
       category: 'Visiting',
       title: 'Visiting PhD from HKUST',
-      imageUrl: process.env.PUBLIC_URL + 'yulin.jpeg'
+      imageUrl: process.env.PUBLIC_URL + 'yulin.jpg'
     },
     {
       id: 24,
