@@ -30,14 +30,14 @@ const people = [
       title: "Electrical Engineering",
       bioLink: 'https://shuchengkang.github.io/',
     },
-    {
-      id: 3,
-      name: 'David Bombara',
-      category: 'PhD',
-      imageUrl: process.env.PUBLIC_URL + 'david_bombara.jpg',
-      bioLink: 'https://dbombara.github.io/welcome',
-      title: "Electrical Engineering"
-    },
+    // {
+    //   id: 3,
+    //   name: 'David Bombara',
+    //   category: 'PhD',
+    //   imageUrl: process.env.PUBLIC_URL + 'david_bombara.jpg',
+    //   bioLink: 'https://dbombara.github.io/welcome',
+    //   title: "Electrical Engineering"
+    // },
     {
       id: 4,
       name: 'Han Qi',
@@ -50,22 +50,15 @@ const people = [
       id: 5,
       name: 'Alex Tong',
       title: 'Visiting undergrad from UC Berkeley',
-      category: 'Masters and Undergrads',
+      category: 'Visiting',
       imageUrl: process.env.PUBLIC_URL + 'alex.png'
     },
     {
       id: 6,
       name: 'Jay Sarva',
       title: 'Visiting undergrad from Brown University',
-      category: 'Masters and Undergrads',
+      category: 'Visiting',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg'
-    },
-    {
-      id: 8,
-      name: 'Shashwat Rai',
-      title: 'Harvard College',
-      category: 'Masters and Undergrads',
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
     },
     {
       id: 9,
@@ -77,7 +70,7 @@ const people = [
     {
       id: 10,
       name: 'Tim Nguyen',
-      category: 'Masters and Undergrads',
+      category: 'Visiting',
       title: 'Visiting undergrad from Boston University',
       bioLink: 'https://thisistim.dev',
       imageUrl: process.env.PUBLIC_URL + 'tim.jpg',
@@ -122,17 +115,11 @@ const people = [
     {
       id: 16,
       name: 'Haoyu Han',
-      category: 'Alumni',
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
-      future: 'Undergrad from University of Science and Technology China, Next: PhD Student at Harvard'
+      category: 'PhD',
+      title: 'Applied Mathematics',
+      imageUrl: process.env.PUBLIC_URL + 'haoyu.jpg',
+      bioLink: 'https://hyhan0118.github.io/',
     },
-    {
-        id: 7,
-        name: 'Haoyu Han',
-        category: 'PhD',
-        imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
-        title: 'Applied Mathematics',
-      },
     {
         id: 17,
         name: 'Aneesh Muppidi',
@@ -149,7 +136,7 @@ const people = [
     {
     id: 19,
     name: 'Haocheng Yin',
-    category: 'Masters and Undergrads',
+    category: 'Visiting',
     title: 'Master student from ETH Zurich',
     imageUrl: process.env.PUBLIC_URL + 'haocheng_yin.jpg'
     },
@@ -174,14 +161,33 @@ const people = [
         category: 'Robot',
         imageUrl: process.env.PUBLIC_URL + 'Lite2.jpg',
     },
-    
-
+    {
+      id: 23,
+      name: 'Yulin Li',
+      category: 'Visiting',
+      title: 'Visiting PhD from HKUST',
+      imageUrl: process.env.PUBLIC_URL + 'yulin.jpeg'
+    },
+    {
+      id: 24,
+      name: 'Elior Benarous',
+      category: 'Alumni',
+      future: 'Master student from ETH Zurich'
+    },
+    {
+      id: 25,
+      name: 'Rajiv Swamy',
+      category: 'Masters and Undergrads',
+      title: 'Master student at Harvard',
+      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg'
+    }
   ];
   
 const PeoplePage = () => {
     const postdocs = people.filter(person => person.category === 'research-staff-and-postdocs');
     const phdStudents = people.filter(person => person.category === 'PhD');
     const mastersAndUndergrads = people.filter(person => person.category === 'Masters and Undergrads');
+    const visiting = people.filter(person => person.category === 'Visiting');
     const highSchool = people.filter(person => person.category === 'High School');
     const robot = people.filter(person => person.category === 'Robot');
     const alumni = people.filter(person => person.category === 'Alumni');
@@ -194,6 +200,7 @@ const PeoplePage = () => {
                     <a href="#research-staff-and-postdocs">Research Staff and Postdocs</a>
                     <a href="#phd">PhD Students</a>
                     <a href="#masters-and-undergraduates">Masters and Undergraduates</a>
+                    <a href="#visiting">Visiting Students</a>
                     <a href="#high-school">High School Students </a>
                     <a href="#robots">Robots</a>
                     <a href="#alumni">Alumni</a>
@@ -262,7 +269,22 @@ const PeoplePage = () => {
                                             <h3>{person.name}</h3>
                                         </a>
                                         <p>{person.title}</p>
-                                        {/* Add more links or information if needed */}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+                    <section id="visiting">
+                        <h2>Visiting Students</h2>
+                        <div className="people-list">
+                            {visiting.map(person => (
+                                <div className="people-member" key={person.id}>
+                                    <img src={person.imageUrl} alt={person.name} />
+                                    <div className="people-info">
+                                        <a href={person.bioLink} className="people-name-link">
+                                            <h3>{person.name}</h3>
+                                        </a>
+                                        <p>{person.title}</p>
                                     </div>
                                 </div>
                             ))}
