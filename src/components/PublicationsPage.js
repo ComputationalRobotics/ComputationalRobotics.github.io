@@ -28,6 +28,16 @@ import './PublicationsPage.css';
 
 const allPublications = [
   { 
+    id: 16, 
+    title: 'Strengthening Generative Robot Policies through Predictive World Modeling',
+    journal_year: 'arXiv preprint 2025', 
+    people: ['Han Qi', 'Haocheng Yin', 'Yilun Du', 'Heng Yang'],
+    tags: ['Vision-based Control', 'Optimal Control'],
+    pdfLink: 'https://arxiv.org/abs/2502.00622',
+    year: 2025,
+    projectLink: 'https://computationalrobotics.seas.harvard.edu/GPC/'
+  },
+  { 
     id: 15, 
     title: 'PreF3R: Pose-Free Feed-Forward 3D Gaussian Splatting from Variable-length Image Sequence',
     journal_year: 'arXiv preprint 2024', 
