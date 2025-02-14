@@ -5,6 +5,30 @@ import './RecentNews.css';
 // If you want to add hyperlinks, just create dictionary with keys 'text' and 'link', otherwise just create text.
 const newsItems = [
     { 
+    date: 'Feb 14, 2025', 
+    content: [
+      { text: 'Preprint: '},
+      { text: 'Global Contact-Rich Planning with Sparsity-Rich Semidefinite Relaxations', link: 'https://www.arxiv.org/abs/2502.02829'}
+    ],},
+    { 
+    date: 'Feb 14, 2025', 
+    content: [
+      { text: 'Preprint: '},
+      { text: 'Building Rome with Convex Optimization', link: 'https://arxiv.org/abs/2502.04640'}
+    ],},
+    { 
+    date: 'Feb 14, 2025', 
+    content: [
+      { text: 'Preprint: '},
+      { text: 'On the Surprising Robustness of Sequential Convex Optimization for Contact-Implicit Motion Planning', link: 'https://arxiv.org/abs/2502.01055'}
+    ],},
+    { 
+      date: 'Feb 14, 2025', 
+      content: [
+        { text: 'Preprint: '},
+        { text: 'Strengthening Generative Robot Policies through Predictive World Modeling', link: 'https://arxiv.org/abs/2502.00622'}
+      ],},
+    { 
     date: 'Feb 2, 2025', 
     content: [
       { text: 'Control-oriented Clustering of Visual Latent Representation', link: 'https://arxiv.org/abs/2410.05063'},
