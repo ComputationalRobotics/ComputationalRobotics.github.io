@@ -9,6 +9,12 @@ To run the website locally:
 npm run start
 ```
 
+You may need to run the following if the website builds with errors:
+
+```bash
+export NODE_OPTIONS=--openssl-legacy-provider
+```
+
 To deploy the website:
 ```bash
 npm run build && npm run deploy
