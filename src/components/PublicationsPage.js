@@ -28,6 +28,37 @@ import './PublicationsPage.css';
 
 const allPublications = [
   { 
+    id: 19, 
+    title: 'Global Contact-Rich Planning with Sparsity-Rich Semidefinite Relaxations',
+    journal_year: 'arXiv preprint 2025', 
+    people: ['Shucheng Kang', 'Guorui Liu', 'Heng Yang'],
+    tags: ['Contact-Rich Planning', 'Optimal Control', 'Semidefinite Optimization and Relaxation'],
+    pdfLink: 'https://www.arxiv.org/abs/2502.02829',
+    year: 2025,
+    projectLink: 'https://computationalrobotics.seas.harvard.edu/project-spot/'
+  },
+  { 
+    id: 18, 
+    title: 'Building Rome with Convex Optimization',
+    journal_year: 'arXiv preprint 2025', 
+    people: ['Haoyu Han', 'Heng Yang'],
+    tags: ['Semidefinite Optimization and Relaxation', 'Computer Vision and Perception'],
+    pdfLink: 'https://arxiv.org/abs/2502.04640',
+    year: 2025,
+    projectLink: 'https://computationalrobotics.seas.harvard.edu/XM/'
+  },
+  { 
+    id: 17, 
+    title: 'On the Surprising Robustness of Sequential Convex Optimization for Contact-Implicit Motion Planning',
+    journal_year: 'arXiv preprint 2025', 
+    people: ['Yulin Li', 'Haoyu Han', 'Shucheng Kang', 'Jun Ma', 'Heng Yang'],
+    tags: ['Contact-Rich Planning', 'Optimal Control'],
+    pdfLink: 'https://arxiv.org/abs/2502.01055',
+    year: 2025,
+    projectLink: 'https://computationalrobotics.seas.harvard.edu/CRISP/'
+  },
+
+  { 
     id: 16, 
     title: 'Strengthening Generative Robot Policies through Predictive World Modeling',
     journal_year: 'arXiv preprint 2025', 
