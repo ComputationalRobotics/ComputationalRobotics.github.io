@@ -28,34 +28,46 @@ import './PublicationsPage.css';
 
 const allPublications = [
   { 
+    id: 20, 
+    title: 'Local Linear Convergence of the Alternating Direction Method of Multipliers for Semidefinite Programming under Strict Complementarity',
+    journal_year: 'arXiv preprint 2025', 
+    people: ['Shucheng Kang', 'Xin Jiang', 'Heng Yang'],
+    tags: ['Semidefinite Optimization and Relaxation'],
+    pdfLink: 'https://arxiv.org/pdf/2503.20142',
+    year: 2025
+  },
+  { 
     id: 19, 
     title: 'Global Contact-Rich Planning with Sparsity-Rich Semidefinite Relaxations',
-    journal_year: 'arXiv preprint 2025', 
+    journal_year: 'Robotics: Science and Systems 2025', 
     people: ['Shucheng Kang', 'Guorui Liu', 'Heng Yang'],
     tags: ['Contact-Rich Planning', 'Optimal Control', 'Semidefinite Optimization and Relaxation'],
     pdfLink: 'https://www.arxiv.org/abs/2502.02829',
     year: 2025,
-    projectLink: 'https://computationalrobotics.seas.harvard.edu/project-spot/'
+    projectLink: 'https://computationalrobotics.seas.harvard.edu/project-spot/',
+    abbrev: 'RSS'
   },
   { 
     id: 18, 
     title: 'Building Rome with Convex Optimization',
-    journal_year: 'arXiv preprint 2025', 
+    journal_year: 'Robotics: Science and Systems 2025', 
     people: ['Haoyu Han', 'Heng Yang'],
     tags: ['Semidefinite Optimization and Relaxation', 'Computer Vision and Perception'],
     pdfLink: 'https://arxiv.org/abs/2502.04640',
     year: 2025,
-    projectLink: 'https://computationalrobotics.seas.harvard.edu/XM/'
+    projectLink: 'https://computationalrobotics.seas.harvard.edu/XM/',
+    abbrev: 'RSS'
   },
   { 
     id: 17, 
     title: 'On the Surprising Robustness of Sequential Convex Optimization for Contact-Implicit Motion Planning',
-    journal_year: 'arXiv preprint 2025', 
+    journal_year: 'Robotics: Science and Systems 2025', 
     people: ['Yulin Li', 'Haoyu Han', 'Shucheng Kang', 'Jun Ma', 'Heng Yang'],
     tags: ['Contact-Rich Planning', 'Optimal Control'],
     pdfLink: 'https://arxiv.org/abs/2502.01055',
     year: 2025,
-    projectLink: 'https://computationalrobotics.seas.harvard.edu/CRISP/'
+    projectLink: 'https://computationalrobotics.seas.harvard.edu/CRISP/',
+    abbrev: 'RSS'
   },
 
   { 
