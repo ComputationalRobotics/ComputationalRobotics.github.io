@@ -27,6 +27,16 @@ import './PublicationsPage.css';
 */
 
 const allPublications = [
+  {
+    id: 21,
+    title: 'Online Aggregation of Trajectory Predictors',
+    journal_year: 'International Conference on Robotics and Automation (ICRA) 2025',
+    people: ['Alex Tong', 'Apoorva Sharma', 'Sushant Veer', 'Marco Pavone', 'Heng Yang'],
+    tags: ['Online Learning'],
+    pdfLink: 'https://arxiv.org/pdf/2502.07178',
+    year: 2025,
+    abbrev: 'ICRA'
+  },
   { 
     id: 20, 
     title: 'Local Linear Convergence of the Alternating Direction Method of Multipliers for Semidefinite Programming under Strict Complementarity',
