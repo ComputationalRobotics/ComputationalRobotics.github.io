@@ -31,6 +31,7 @@ const PublicationsList = ({ publications, searchQuery, selectedTags }) => {
                         <div className="pubtitle">{pub.title}</div>
                         <div className='pubjournalyear'>{pub.journal_year} </div>
                         <div className="pubpeople">{pub.people.join(', ')} </div>
+                        {pub.notes && <div className="pubnotes"><em>{pub.notes}</em></div>}
                         <div className="publication-buttons">
                             {pub.pdfLink && <a href={pub.pdfLink} className="button pdf" target="_blank" rel="noopener noreferrer">PDF</a>}
                             {pub.videoLink && <a href={pub.videoLink} className="button video" target="_blank" rel="noopener noreferrer">VIDEO</a>}
