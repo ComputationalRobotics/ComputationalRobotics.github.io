@@ -6,6 +6,7 @@ import PeoplePage from './components/PeoplePage'; // Importing PeoplePage compon
 // import ResearchPage from './components/ResearchPage'; // Importing ResearchPage component
 import JoiningPage from './components/JoiningPage'; // Importing JoiningPage component
 import PublicationsPage from './components/PublicationsPage'; // Importing PublicationsPage component
+import SoftwarePage from './components/SoftwarePage'; // Importing SoftwarePage component
 import Footer from './components/Footer'; // Importing Footer component
 import './App.css'; // Importing the main stylesheet
 
@@ -18,6 +19,7 @@ function App() {
           <Route path={`${process.env.PUBLIC_URL}/people`} element={<PeoplePage />} />
           {/* <Route path={`${process.env.PUBLIC_URL}/research`} element={<ResearchPage />} /> */}
           <Route path={`${process.env.PUBLIC_URL}/publications`} element={<PublicationsPage />} />
+          <Route path={`${process.env.PUBLIC_URL}/software`} element={<SoftwarePage />} />
           <Route path={`${process.env.PUBLIC_URL}/joining`} element={<JoiningPage />} />
           <Route path={`${process.env.PUBLIC_URL}/`} element={<HomePage />} />
         </Routes>

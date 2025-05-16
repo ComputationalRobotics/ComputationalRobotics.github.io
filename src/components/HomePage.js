@@ -8,9 +8,7 @@ const HomePage = () => {
   return (
     <div>
       <MainSection />
-      {/*<ResearchHighlights />*/}
       <RecentNews />
-      {/* Rest of your HomePage content */}
     </div>
   );
 };

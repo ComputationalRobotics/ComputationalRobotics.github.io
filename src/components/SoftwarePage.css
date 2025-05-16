@@ -1,0 +1,55 @@
+.software-page {
+  padding: 20px;
+  /* max-width: 900px; */ /* Moved to .software-container */
+  /* margin: auto; */ /* Moved to .software-container */
+  background-color: #f5f5f5;
+  flex-grow: 1; /* Allow this container to grow and fill vertical space */
+  display: flex; /* To enable flex properties for children, if needed, or just for centering content wrapper */
+  flex-direction: column; /* Align content wrapper vertically */
+}
+
+.software-container {
+  max-width: 1150px;
+  margin: 0 auto; /* Center the content wrapper */
+  width: 100%; /* Ensure it takes up available width up to max-width */
+}
+
+.page-title {
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 2.0em;
+  color: #A41034;
+  font-weight: bold;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 25px;
+}
+
+.software-list {
+  list-style-type: square;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.software-item {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 1em;
+  color: #333; /* General text color, can be removed to inherit if needed */
+}
+
+.software-name {
+  font-weight: bold;
+  text-decoration: none;
+  color: #A41034;
+}
+
+.software-name:hover {
+  text-decoration: underline;
+}
+
+/* Removed .software-description and .software-tags as they are integrated now */ 
