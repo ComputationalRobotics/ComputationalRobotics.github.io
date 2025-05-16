@@ -56,9 +56,9 @@ const people = [
     {
       id: 6,
       name: 'Jay Sarva',
-      title: 'Visiting undergrad from Brown University',
-      category: 'Visiting',
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg'
+      category: 'Alumni',
+      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      future: 'Undergrad from Brown University'
     },
     {
       id: 9,
@@ -123,10 +123,10 @@ const people = [
     {
         id: 17,
         name: 'Aneesh Muppidi',
-        title: 'Harvard College',
-        category: 'Masters and Undergrads',
+        category: 'Alumni',
         imageUrl: process.env.PUBLIC_URL + 'aneesh.jpg',
         bioLink: 'https://aneeshers.github.io/',
+        future: 'Undergrad from Harvard College, Next: US Rhodes Scholar at Oxford, PhD student at Stanford'
     },
     {
         id: 18,
@@ -137,9 +137,9 @@ const people = [
     {
     id: 19,
     name: 'Haocheng Yin',
-    category: 'Visiting',
-    title: 'Master student from ETH Zurich',
-    imageUrl: process.env.PUBLIC_URL + 'haocheng_yin.jpg'
+    category: 'Alumni',
+    imageUrl: process.env.PUBLIC_URL + 'haocheng_yin.jpg',
+    future: 'Master student from ETH Zurich, Next: PhD student at Georgia Tech'
     },
     {
     id: 20,
@@ -165,9 +165,10 @@ const people = [
     {
       id: 23,
       name: 'Yulin Li',
-      category: 'Visiting',
-      title: 'Visiting PhD from HKUST',
-      imageUrl: process.env.PUBLIC_URL + 'yulin.jpg'
+      category: 'Alumni',
+      imageUrl: process.env.PUBLIC_URL + 'yulin.jpg',
+      bioLink: 'https://yulinli0.github.io/',
+      future: 'Visiting PhD from HKUST'
     },
     {
       id: 24,

@@ -5,21 +5,21 @@ import './SoftwarePage.css'; // We'll create this later
 const softwareProjects = [
   {
     id: 1,
-    name: 'Placeholder 1',
-    description: 'This solver is an implementation of our fast and parallelizable iterative algorithm for solving large-scale sparse semidefinite programs.',
-    url: '#' // Replace with actual URL
+    name: 'XM (conveX bundle adjustMent)',
+    description: 'A scalable and initialization-free solver for global bundle adjustment, leveraging learned depth and GPU-accelerated convex optimization. The package implements both XM and a full structure from motion (SfM) pipeline powered by XM, achieving substantial speed up compared to existing solvers.',
+    url: 'https://github.com/ComputationalRobotics/XM-code' // Replace with actual URL
   },
   {
     id: 2,
-    name: 'Placeholder 2',
-    description: 'This solver aims to solve a convex relaxation for a large-scale Optimal Power Flow (OPF) Problem and then recover a near-global solution.',
-    url: '#' // Replace with actual URL
+    name: 'SPOT (Sparse Polynomial Optimization Toolbox)',
+    description: 'A lightweight, high-performance, sparse Moment-SOS Hierarchy conversion package for global optimization of polynomial optimization problems (POP). SPOT is written in C++, with MATLAB and Python interfaces.',
+    url: 'https://github.com/ComputationalRobotics/SPOT' // Replace with actual URL
   },
   {
     id: 3,
-    name: 'Placeholder 3',
-    description: 'This solver aims to solve a convex relaxation for three types of the Optimal Distributed Control (ODC) problem: finite-horizon deterministic ODC, infinite-horizon deterministic ODC, and stochastic ODC. It also recovers a near-global controller if possible.',
-    url: '#' // Replace with actual URL
+    name: 'CRISP (Robust Contact-Implicit motion planning with Sequential convex Programming)',
+    description: 'A C++ library developed to efficiently solve contact-implicit motion planning problems, using a customized trust region Sequential Convex Programming (SCP) algorithm.',
+    url: 'https://github.com/ComputationalRobotics/CRISP' // Replace with actual URL
   },
   // Add more software projects here
 ];
