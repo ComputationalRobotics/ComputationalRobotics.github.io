@@ -5,6 +5,11 @@ import './RecentNews.css';
 // If you want to add hyperlinks, just create dictionary with keys 'text' and 'link', otherwise just create text.
 const newsItems = [
     { 
+    date: 'Jun 13, 2025', 
+    content: [
+      { text: 'Building Rome with Convex Optimizaion awarded RSS 2025 Best Systems Paper. Congrats to Haoyu!'}
+    ],},
+    { 
     date: 'Apr 13, 2025', 
     content: [
       { text: 'Three papers accepted to Robotics: Science and Systems 2025. Congrats to Shucheng, Haoyu, and Yulin!'}
