@@ -67,7 +67,7 @@ const allPublications = [
     year: 2025,
     projectLink: 'https://computationalrobotics.seas.harvard.edu/XM/',
     abbrev: 'RSS',
-    award: 'Best Systems Paper'
+    award: 'Best Systems Paper Award'
   },
   { 
     id: 17, 
