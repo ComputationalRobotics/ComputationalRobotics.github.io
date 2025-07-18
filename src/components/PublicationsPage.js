@@ -28,6 +28,15 @@ import './PublicationsPage.css';
 
 const allPublications = [
   {
+    id: 22,
+    title: 'Factorization-free Orthogonal Projection onto the Positive Semidefinite Cone with Composite Polynomial Filtering',
+    journal_year: 'arXiv preprint 2025',
+    people: ['Shucheng Kang', 'Haoyu Han', 'Antoine Groudiev', 'Heng Yang'],
+    tags: ['Semidefinite Optimization and Relaxation'],
+    pdfLink: 'https://arxiv.org/pdf/2507.09165',
+    year: 2025
+  },
+  {
     id: 21,
     title: 'Online Aggregation of Trajectory Predictors',
     journal_year: 'International Conference on Robotics and Automation (ICRA) 2025',
