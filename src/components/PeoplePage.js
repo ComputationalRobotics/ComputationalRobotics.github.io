@@ -16,10 +16,10 @@ const people = [
     {
       id: 1,
       name: 'Zhiyu Zhang',
-      title: 'Postdoc',
-      category: 'research-staff-and-postdocs', 
+      category: 'Alumni', 
       imageUrl: process.env.PUBLIC_URL + 'Zhiyu.jpg',
       bioLink: 'https://zhiyuzz.github.io/',
+      future: 'Postdoc, Next: Postdoc at CMU and Assistant Professor at Zhejiang University'
       // Other links or additional information can be added here
     },
     {
@@ -49,9 +49,9 @@ const people = [
     {
       id: 5,
       name: 'Alex Tong',
-      title: 'Visiting undergrad from UC Berkeley',
-      category: 'Visiting',
-      imageUrl: process.env.PUBLIC_URL + 'alex.png'
+      category: 'Alumni',
+      imageUrl: process.env.PUBLIC_URL + 'alex.png',
+      future: "Undergrad from UC Berkeley"
     },
     {
       id: 6,
@@ -63,17 +63,17 @@ const people = [
     {
       id: 9,
       name: 'William Zhang',
-      category: 'High School',
-      title: 'Weston High School',
+      category: 'Alumni',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg',
+      future: "High school student from Weston High, Next: Undergrad at UPenn"
     },
     {
       id: 10,
       name: 'Tim Nguyen',
-      category: 'Visiting',
-      title: 'Visiting undergrad from Boston University',
+      category: 'Alumni',
       bioLink: 'https://thisistim.dev',
       imageUrl: process.env.PUBLIC_URL + 'tim.jpg',
+      future: "Visiting student from Boston Latin School and then Boston University"
     },
     {
       id: 11,
@@ -146,7 +146,8 @@ const people = [
     name: 'Kevin Kasa',
     category: 'Alumni',
     imageUrl: process.env.PUBLIC_URL + 'kevin_kasa.png',
-    future: 'Master student from University of Guelph'
+    future: 'Master student from University of Guelph, Next: researcher at ServiceNow Research',
+    bioLink: 'https://kevinkasa.github.io/'
     },
     {
         id: 21,
@@ -168,7 +169,7 @@ const people = [
       category: 'Alumni',
       imageUrl: process.env.PUBLIC_URL + 'yulin.jpg',
       bioLink: 'https://yulinli0.github.io/',
-      future: 'Visiting PhD from HKUST'
+      future: 'Visiting PhD student from HKUST'
     },
     {
       id: 24,
@@ -182,7 +183,30 @@ const people = [
       category: 'Masters and Undergrads',
       title: 'Master student at Harvard',
       imageUrl: process.env.PUBLIC_URL + 'profile.jpeg'
-    }
+    },
+    {
+      id: 26,
+      name: 'Wenhui Huang',
+      title: 'Postdoc (joint w/ Yilun Du)',
+      category: 'research-staff-and-postdocs', 
+      imageUrl: process.env.PUBLIC_URL + 'Wenhui.jpeg',
+      bioLink: 'https://oscarhuangwind.github.io/'
+    },
+    {
+      id: 27,
+      name: 'Antoine Groudiev',
+      category: 'Alumni', 
+      bioLink: 'https://agroudiev.github.io/',
+      future: 'Visiting student from École Normale Supérieure - PSL, Paris'
+    },
+    {
+      id: 28,
+      name: 'Adrian Kobras',
+      category: 'Alumni', 
+      future: 'Visiting student from Technical University of Munich'
+    },
+    
+
   ];
   
 const PeoplePage = () => {
