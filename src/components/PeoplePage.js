@@ -205,8 +205,13 @@ const people = [
       category: 'Alumni', 
       future: 'Visiting student from Technical University of Munich'
     },
-    
-
+    {
+      id: 29,
+      name: 'Jack Benarroch Jedlicki',
+      category: 'PhD',
+      imageUrl: process.env.PUBLIC_URL + 'jack.jpg',
+      title: "Computer Science"
+    },
   ];
   
 const PeoplePage = () => {
