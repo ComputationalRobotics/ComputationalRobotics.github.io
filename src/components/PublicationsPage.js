@@ -28,6 +28,16 @@ import './PublicationsPage.css';
 
 const allPublications = [
   {
+    id: 23,
+    title: 'Compose by Focus: Scene Graph-based Atomic Skills',
+    journal_year: 'arXiv preprint 2025',
+    people: ['Han Qi', 'Changhe Chen', 'Heng Yang'],
+    tags: ['Computer Vision and Perception', 'Vision-based Control', 'Robot Learning'],
+    pdfLink: 'https://arxiv.org/pdf/2509.16053',
+    projectLink: 'https://computationalrobotics.seas.harvard.edu/SkillComposition/',
+    year: 2025
+  },
+  {
     id: 22,
     title: 'Factorization-free Orthogonal Projection onto the Positive Semidefinite Cone with Composite Polynomial Filtering',
     journal_year: 'arXiv preprint 2025',
@@ -95,7 +105,7 @@ const allPublications = [
     title: 'Strengthening Generative Robot Policies through Predictive World Modeling',
     journal_year: 'arXiv preprint 2025', 
     people: ['Han Qi', 'Haocheng Yin', 'Yilun Du', 'Heng Yang'],
-    tags: ['Vision-based Control', 'Optimal Control'],
+    tags: ['Vision-based Control', 'Optimal Control', 'Robot Learning'],
     pdfLink: 'https://arxiv.org/abs/2502.00622',
     year: 2025,
     projectLink: 'https://computationalrobotics.seas.harvard.edu/GPC/'
@@ -115,7 +125,7 @@ const allPublications = [
     title: 'Control-oriented Clustering of Visual Latent Representation',
     journal_year: 'International Conference on Learning Representations 2025', 
     people: ['Han Qi', 'Haocheng Yin', 'Heng Yang'], 
-    tags: ['Vision-based Control', 'Optimal Control'],
+    tags: ['Vision-based Control', 'Optimal Control', 'Robot Learning'],
     pdfLink: 'https://arxiv.org/abs/2410.05063',
     year: 2025,
     projectLink: 'https://computationalrobotics.seas.harvard.edu/ControlOriented_NC/',
