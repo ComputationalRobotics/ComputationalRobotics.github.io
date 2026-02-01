@@ -28,14 +28,25 @@ import './PublicationsPage.css';
 
 const allPublications = [
   {
+    id: 24,
+    title: 'Sparse Variable Projection in Robotic Perception: Exploiting Separable Structure for Efficient Nonlinear Optimization',
+    journal_year: 'International Conference on Robotics and Automation (ICRA) 2026',
+    people: ['Alan Papalia', 'Nikolas Sanderson', 'Haoyu Han', 'Heng Yang', 'Hanumant Singh', 'Michael Everett'],
+    tags: ['Computer Vision and Perception'],
+    pdfLink: 'https://www.arxiv.org/pdf/2512.07969',
+    year: 2026,
+    abbrev: 'ICRA'
+  },
+  {
     id: 23,
     title: 'Compose by Focus: Scene Graph-based Atomic Skills',
-    journal_year: 'arXiv preprint 2025',
+    journal_year: 'International Conference on Robotics and Automation (ICRA) 2026',
     people: ['Han Qi', 'Changhe Chen', 'Heng Yang'],
     tags: ['Computer Vision and Perception', 'Vision-based Control', 'Robot Learning'],
     pdfLink: 'https://arxiv.org/pdf/2509.16053',
     projectLink: 'https://computationalrobotics.seas.harvard.edu/SkillComposition/',
-    year: 2025
+    year: 2026,
+    abbrev: 'ICRA'
   },
   {
     id: 22,
