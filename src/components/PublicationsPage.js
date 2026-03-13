@@ -28,6 +28,24 @@ import './PublicationsPage.css';
 
 const allPublications = [
   {
+    id: 26,
+    title: 'Non-Uniform Noise-to-Signal Ratio in the REINFORCE Policy-Gradient Estimator',
+    journal_year: 'arXiv preprint 2026',
+    people: ['Haoyu Han', 'Heng Yang'],
+    tags: ['Reinforcement Learning', 'Optimization Dynamics'],
+    pdfLink: 'https://arxiv.org/abs/2602.01460',
+    year: 2026
+  },
+  {
+    id: 25,
+    title: 'Local Second-Order Limit Dynamics of the Alternating Direction Method of Multipliers for Semidefinite Programming',
+    journal_year: 'arXiv preprint 2026',
+    people: ['Shucheng Kang', 'Heng Yang'],
+    tags: ['Semidefinite Optimization and Relaxation', 'Optimization Dynamics'],
+    pdfLink: 'https://arxiv.org/abs/2602.20103',
+    year: 2026
+  },
+  {
     id: 24,
     title: 'Sparse Variable Projection in Robotic Perception: Exploiting Separable Structure for Efficient Nonlinear Optimization',
     journal_year: 'International Conference on Robotics and Automation (ICRA) 2026',
@@ -113,13 +131,14 @@ const allPublications = [
 
   { 
     id: 16, 
-    title: 'Strengthening Generative Robot Policies through Predictive World Modeling',
-    journal_year: 'arXiv preprint 2025', 
-    people: ['Han Qi', 'Haocheng Yin', 'Yilun Du', 'Heng Yang'],
+    title: 'Inference-Time Enhancement of Generative Robot Policies via Predictive World Modeling',
+    journal_year: 'IEEE Robotics and Automation Letters (RA-L) 2026', 
+    people: ['Han Qi', 'Haocheng Yin', 'Aris Zhu', 'Yilun Du', 'Heng Yang'],
     tags: ['Vision-based Control', 'Optimal Control', 'Robot Learning'],
     pdfLink: 'https://arxiv.org/abs/2502.00622',
-    year: 2025,
-    projectLink: 'https://computationalrobotics.seas.harvard.edu/GPC/'
+    year: 2026,
+    projectLink: 'https://computationalrobotics.seas.harvard.edu/GPC/',
+    abbrev: 'RA-L'
   },
   { 
     id: 15, 
