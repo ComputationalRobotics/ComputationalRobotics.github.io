@@ -28,13 +28,24 @@ import './PublicationsPage.css';
 
 const allPublications = [
   {
+    id: 27,
+    title: 'Tempered Sequential Monte Carlo for Trajectory and Policy Optimization with Differentiable Dynamics',
+    journal_year: 'Robotics: Science and Systems (RSS) 2026',
+    people: ['Heng Yang'],
+    tags: ['Reinforcement Learning', 'Optimal Control', 'Contact-Rich Planning'],
+    pdfLink: 'https://arxiv.org/abs/2604.21456',
+    year: 2026,
+    abbrev: 'RSS'
+  },
+  {
     id: 26,
     title: 'Non-Uniform Noise-to-Signal Ratio in the REINFORCE Policy-Gradient Estimator',
-    journal_year: 'arXiv preprint 2026',
+    journal_year: 'International Conference on Machine Learning (ICML) 2026',
     people: ['Haoyu Han', 'Heng Yang'],
     tags: ['Reinforcement Learning', 'Optimization Dynamics'],
     pdfLink: 'https://arxiv.org/abs/2602.01460',
-    year: 2026
+    year: 2026,
+    abbrev: 'ICML'
   },
   {
     id: 25,
