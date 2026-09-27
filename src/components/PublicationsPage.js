@@ -28,6 +28,70 @@ import './PublicationsPage.css';
 
 const allPublications = [
   {
+    id: 34,
+    title: 'Spectral Deflation for Factorization-Free Matrix Filtering in Muon and Semidefinite Programming',
+    journal_year: 'arXiv preprint 2026',
+    people: ['Haoran Sun', 'Shucheng Kang', 'Heng Yang'],
+    tags: ['Semidefinite Optimization and Relaxation'],
+    pdfLink: 'https://arxiv.org/abs/2609.21102',
+    year: 2026
+  },
+  {
+    id: 33,
+    title: 'Afterimage Slow Regions in First-Order Methods for Linear Conic Programming',
+    journal_year: 'arXiv preprint 2026',
+    people: ['Shucheng Kang', 'Heng Yang'],
+    tags: ['Semidefinite Optimization and Relaxation', 'Optimization Dynamics'],
+    pdfLink: 'https://arxiv.org/abs/2609.09449',
+    year: 2026
+  },
+  {
+    id: 32,
+    title: 'Trajectory Optimization via Schrödinger Bridge Sampling',
+    journal_year: 'arXiv preprint 2026',
+    people: ['Mattia Mosso', 'Yang Liu', 'Heng Yang'],
+    tags: ['Optimal Control', 'Contact-Rich Planning'],
+    pdfLink: 'https://arxiv.org/abs/2609.07914',
+    year: 2026
+  },
+  {
+    id: 31,
+    title: 'Hard-Constrained Sampling on Embedded Riemannian Manifolds via Adjoint Schrödinger Bridges',
+    journal_year: 'arXiv preprint 2026',
+    people: ['Mattia Mosso', 'Jaemoo Choi', 'Heng Yang'],
+    tags: ['Optimal Control', 'Control Theory'],
+    pdfLink: 'https://arxiv.org/abs/2608.25838',
+    year: 2026
+  },
+  {
+    id: 30,
+    title: 'Provable Edge-of-Stability for Adam on a One-Dimensional Quadratic',
+    journal_year: 'arXiv preprint 2026',
+    people: ['Yiman Fong', 'Heng Yang'],
+    tags: ['Optimization Dynamics'],
+    pdfLink: 'https://arxiv.org/abs/2608.20638',
+    year: 2026
+  },
+  {
+    id: 29,
+    title: 'Simplicial Regularizability of the Pseudo-Moment Cone and Carathéodory-Type Atomic Decomposition of Moment Matrices',
+    journal_year: 'arXiv preprint 2026',
+    people: ['Shucheng Kang', 'Heng Yang'],
+    tags: ['Semidefinite Optimization and Relaxation'],
+    pdfLink: 'https://arxiv.org/abs/2605.06854',
+    year: 2026
+  },
+  {
+    id: 28,
+    title: 'BEACON: Cross-Domain Co-Training of Generative Robot Policies via Best-Effort Adaptation',
+    journal_year: 'Conference on Neural Information Processing Systems (NeurIPS) 2026',
+    people: ['Antong Zhang', 'Han Qi', 'Heng Yang'],
+    tags: ['Vision-based Control', 'Robot Learning'],
+    pdfLink: 'https://arxiv.org/abs/2605.08571',
+    year: 2026,
+    abbrev: 'NeurIPS'
+  },
+  {
     id: 27,
     title: 'Tempered Sequential Monte Carlo for Trajectory and Policy Optimization with Differentiable Dynamics',
     journal_year: 'Robotics: Science and Systems (RSS) 2026',
@@ -327,11 +391,18 @@ const allPublications = [
 // List of unique tags extracted from all publications
 const uniqueTags = Array.from(new Set(allPublications.flatMap(p => p.tags)));
 
-const sortedPublications = allPublications.sort((a, b) => {
-  // First, compare by year
+const sortedPublications = [...allPublications].sort((a, b) => {
+  // Display preprints before published papers.
+  const aIsPreprint = /preprint/i.test(a.journal_year);
+  const bIsPreprint = /preprint/i.test(b.journal_year);
+  if (aIsPreprint !== bIsPreprint) {
+      return aIsPreprint ? -1 : 1;
+  }
+
+  // Within each group, display the newest years first.
   const yearDifference = b.year - a.year;
   if (yearDifference !== 0) {
-      return yearDifference; // If years are not equal, sort by year
+      return yearDifference;
   }
   // If years are equal, compare by title
   return a.title.localeCompare(b.title);

@@ -83,6 +83,13 @@
     border-radius: 4px; /* Optional: Adds rounded corners to the image */
     margin-right: 20px; /* Adds space between the image and the text */
   }
+
+  .people-member img.square-portrait {
+    height: 100px;
+    object-fit: cover;
+    object-position: center top;
+    flex-shrink: 0;
+  }
   
   .people-info {
     margin-right: -1em; 

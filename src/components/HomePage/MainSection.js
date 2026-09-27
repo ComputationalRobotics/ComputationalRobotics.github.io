@@ -1,6 +1,6 @@
 import React from 'react';
 import './MainSection.css';
-const image = process.env.PUBLIC_URL + '/group_photo.jpg';
+const image = process.env.PUBLIC_URL + '/group_photo_rockport_MA.JPG';
 
 const MainSection = () => {
     return (
@@ -14,7 +14,10 @@ const MainSection = () => {
                     
                 </div>
                 <div className="image-container">
-                    <img src={image} alt="Harvard Computational Robotics Lab" />
+                    <figure className="group-photo">
+                        <img src={image} alt="Harvard Computational Robotics Lab in Rockport, MA" />
+                        <figcaption>Rockport, MA 2026</figcaption>
+                    </figure>
                 </div>
             </div>
         </div>
@@ -22,5 +25,4 @@ const MainSection = () => {
 };
 
 export default MainSection;
-
 

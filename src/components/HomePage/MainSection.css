@@ -8,7 +8,8 @@
 .mainsection-tab-container {
     display: flex;
     align-items: center;
-    height: 350px;
+    min-height: 350px;
+    padding: 1.5em 0;
     border-radius: 4px; /* Optional: if you want rounded corners */
     overflow: hidden; /* Ensures the content respects the border radius */
     max-width: 1150px; /* Adjust this value as needed for your max-width */
@@ -30,10 +31,27 @@
 }
 
 .image-container img {
+    display: block;
     max-width: 100%;
     width: 461px;
     height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center 60%;
     border-radius: 4px; /* Optional: if you want rounded corners on the image */
+}
+
+.group-photo {
+    width: 461px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.group-photo figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #555;
+    text-align: center;
 }
 
 .maintitle {
@@ -62,7 +80,7 @@
 
     .mainsection-tab-container {
         max-width: 1000px; /* Adjust this value as needed for your max-width */
-        height: 375px;
+        min-height: 375px;
     }
 
     .main-section-content {

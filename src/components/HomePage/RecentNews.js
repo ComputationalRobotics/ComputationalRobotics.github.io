@@ -4,6 +4,17 @@ import './RecentNews.css';
 // If you want to add to the news, just create dictionaries with keys 'date' (string), and 'content' (array of dictionaries). 
 // If you want to add hyperlinks, just create dictionary with keys 'text' and 'link', otherwise just create text.
 const newsItems = [
+    {
+    date: 'Sep 26, 2026',
+    content: [
+      { text: 'BEACON', link: 'https://arxiv.org/abs/2605.08571'},
+      { text: ' accepted to NeurIPS 2026. Congrats to Antong and Han!'}
+    ],},
+    {
+    date: 'Jun 2, 2026',
+    content: [
+      { text: 'Our group received an NSF CAREER award!'}
+    ],},
     { 
     date: 'May 1, 2026', 
     content: [
@@ -31,30 +42,6 @@ const newsItems = [
       { text: 'Three papers accepted to Robotics: Science and Systems 2025. Congrats to Shucheng, Haoyu, and Yulin!'}
     ],},
     { 
-    date: 'Feb 14, 2025', 
-    content: [
-      { text: 'Preprint: '},
-      { text: 'Global Contact-Rich Planning with Sparsity-Rich Semidefinite Relaxations', link: 'https://www.arxiv.org/abs/2502.02829'}
-    ],},
-    { 
-    date: 'Feb 14, 2025', 
-    content: [
-      { text: 'Preprint: '},
-      { text: 'Building Rome with Convex Optimization', link: 'https://arxiv.org/abs/2502.04640'}
-    ],},
-    { 
-    date: 'Feb 14, 2025', 
-    content: [
-      { text: 'Preprint: '},
-      { text: 'On the Surprising Robustness of Sequential Convex Optimization for Contact-Implicit Motion Planning', link: 'https://arxiv.org/abs/2502.01055'}
-    ],},
-    { 
-      date: 'Feb 14, 2025', 
-      content: [
-        { text: 'Preprint: '},
-        { text: 'Strengthening Generative Robot Policies through Predictive World Modeling', link: 'https://arxiv.org/abs/2502.00622'}
-      ],},
-    { 
     date: 'Feb 2, 2025', 
     content: [
       { text: 'Control-oriented Clustering of Visual Latent Representation', link: 'https://arxiv.org/abs/2410.05063'},
@@ -67,24 +54,6 @@ const newsItems = [
       { text: ' accepted to SIAM Journal on Optimization. Congrats to Shucheng!'}
     ],},
     { 
-    date: 'Nov 27, 2024', 
-    content: [
-      { text: 'Preprint: '},
-      { text: 'PreF3R: Pose-Free Feed-Forward 3D Gaussian Splatting from Variable-length Image Sequence', link: 'https://arxiv.org/pdf/2411.16877'}
-    ],},
-    { 
-    date: 'Oct 9, 2024', 
-    content: [
-      { text: 'Preprint: '},
-      { text: 'Control-oriented Clustering of Visual Latent Representation', link: 'https://arxiv.org/pdf/2410.05063'}
-    ],},
-    { 
-      date: 'Oct 8, 2024', 
-      content: [
-        { text: 'Preprint: '},
-        { text: 'The Benefit of Being Bayesian in Online Conformal Prediction', link: 'https://arxiv.org/pdf/2410.02561'}
-      ],},
-    { 
     date: 'Sep 25, 2024', 
     content: [
       { text: 'Fast TRAC for Lifelong Reinforcement Learning', link: 'https://computationalrobotics.seas.harvard.edu/TRAC/'},
@@ -95,24 +64,6 @@ const newsItems = [
     content: [
       { text: 'Fast and Certifiable Trajectory Optimization', link: 'https://arxiv.org/abs/2406.05846'},
       { text: ' accepted to the International Workshop on the Algorithmic Foundations of Robotics (WAFR), congrats to Shucheng!'}
-    ],},
-    { 
-    date: 'June 11, 2024', 
-    content: [
-      { text: 'Preprint: '},
-      { text: 'Fast and Certifiable Trajectory Optimization', link: 'https://arxiv.org/abs/2406.05846'}
-    ],},
-    { 
-    date: 'June 4, 2024', 
-    content: [
-      { text: 'Preprint: '},
-      { text: 'Adapting Conformal Prediction to Distribution Shifts Without Labels', link: 'https://arxiv.org/abs/2406.01416'}
-    ],},
-    { 
-    date: 'May 31, 2024', 
-    content: [
-      { text: 'Preprint: '},
-      { text: 'A Parameter-Free Optimizer for Lifelong Reinforcement Learning', link: 'https://arxiv.org/pdf/2405.16642'}
     ],},
     { 
     date: 'May 13, 2024', 
@@ -141,13 +92,6 @@ const newsItems = [
       { text: ' in the INFORMS Optimization Society conference'}
     ],},
     { 
-    date: 'Mar 18, 2024', 
-    content: [
-      { text: 'Preprint: '},
-      { text: 'a GPU accelerated algorithm called CLOSURE', link: 'https://arxiv.org/pdf/2403.09990.pdf'},
-      { text: ' that quantifies pose uncertainty sets in real time'}
-    ],},
-    { 
         date: 'Feb 23, 2024', 
         content: [
           { text: 'Zhiyu presents '},
@@ -160,45 +104,6 @@ const newsItems = [
           { text: 'SIM-Sync', link: 'https://arxiv.org/pdf/2309.05184.pdf'},
           { text: ' accepted to IEEE Robotics and Automation Letters, congrats to Xihang!' }
         ],},
-    { 
-        date: 'Feb 6, 2024', 
-        content: [
-          { text: 'Preprint on ' },
-          { text: 'discounted adaptive online prediction', link: 'https://arxiv.org/abs/2402.02720' },
-          { text: '. As a downstream application, we give a better algorithm for performing online adaptive conformal prediction!' }
-        ],},
-    { 
-        date: 'Jan 31, 2024', 
-        content: [
-          { text: 'Preprint on ' },
-          { text: 'sparse polynomial optimization with unbounded sets', link: 'https://arxiv.org/abs/2401.15837' },
-          { text: ', as an application, we solve optimal control of the Van der Pol oscillator to certifiable global optimality. Congrats to Shucheng!' }
-        ],},
-    { 
-        date: 'Jan 8, 2024', 
-        content: [
-          { text: 'Preprint on ' },
-          { text: 'understanding', link: 'https://www.google.com' },
-          { text: ' and computing the ' },
-          { text: 'true optimal value function', link: 'https://www.google.com' },
-          { text: ' of infinite-horizon pendulum swing-up.' }
-        ],},
-    { 
-        date: 'Nov 30, 2023', 
-        content: [
-          { text: 'Preprint with Yukai Tang and Jean-Bernard Lasserre: revisiting the minimum enclosing ellipsoids of set-membership estimation in control and perception, using convex optimization; my presentation at Autonomy Talks can be found here' },
-          { text: 'revisiting the minimum enclosing ellipsoids of set-membership estimation in control and perception, using convex optimization', link: 'https://arxiv.org/abs/2311.15962' },
-          { text: 'my presentation at Autonomy Talks can be found' },
-          { text: 'here', link: 'https://youtu.be/eBtlKthnvm8?si=OVOfTSMrQvQ3WL2z' },
-        ], },
-    { 
-        date: 'Sep 30, 2023', 
-        content: [
-          { text: 'Preprint with ' }, 
-          { text: 'Xihang Yu', link: 'https://xihangyu630.github.io/' },
-          { text: ': '},
-          { text: 'SIM-Sync', link: 'https://arxiv.org/abs/2309.05184'},
-          { text: ', certifiably optimal 3D scene reconstruction with learned depth'}], },
     { 
         date: 'Jul 30, 2023', 
         content: [
@@ -213,22 +118,18 @@ const newsItems = [
         content: [
             { text: 'Object Pose Estimation with Statistical Guarantees', link: 'https://arxiv.org/abs/2303.12246' },
             { text: ' accepted to CVPR 2023 as a highlight paper.' }], },
-    { 
-        date: 'Mar 22, 2023', 
-        content: [
-            { text: 'New preprint on ' },
-            { text: 'verification and synthesis of robust control barrier functions', link: 'https://arxiv.org/abs/2303.10081'},
-            { text: ': you do not need iterative sum of squares.' }], },
-    
-  ];  
-  // ... add other news here
+  ];
 
-  const RecentNews = () => {
+const recentNewsItems = [...newsItems]
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 15);
+
+const RecentNews = () => {
     return (
         <div className="news-section">
             <p className="news-title">News</p>
             <div className="news-items-container">
-                {newsItems.map((item, index) => (
+                {recentNewsItems.map((item, index) => (
                     <div key={index} className="news-item">
                         <div className="news-date">{item.date}</div>
                         <div className="news-content">

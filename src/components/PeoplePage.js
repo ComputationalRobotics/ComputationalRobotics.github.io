@@ -27,7 +27,7 @@ const people = [
       name: 'Shucheng Kang',
       category: 'PhD',
       imageUrl: process.env.PUBLIC_URL + 'Shucheng.jpg',
-      title: "Electrical Engineering",
+      title: "Electrical and Computer Engineering",
       bioLink: 'https://shuchengkang.github.io/',
     },
     // {
@@ -74,13 +74,6 @@ const people = [
       bioLink: 'https://thisistim.dev',
       imageUrl: process.env.PUBLIC_URL + 'tim.jpg',
       future: "Visiting student from Boston Latin School and then Boston University"
-    },
-    {
-      id: 11,
-      name: 'Tucker',
-      title: 'Franka Emika Panda Arm',
-      category: 'Robot',
-      imageUrl: process.env.PUBLIC_URL + 'franka.png',
     },
     {
       id: 12,
@@ -150,20 +143,6 @@ const people = [
     bioLink: 'https://kevinkasa.github.io/'
     },
     {
-        id: 21,
-        name: 'Harvey',
-        title: 'Unitree Go2',
-        category: 'Robot',
-        imageUrl: process.env.PUBLIC_URL + 'Go2.png',
-    },
-    {
-        id: 22,
-        name: 'Qin',
-        title: 'Deep Robotics Lite2 (Gift from Zengyi Qin)',
-        category: 'Robot',
-        imageUrl: process.env.PUBLIC_URL + 'Lite2.jpg',
-    },
-    {
       id: 23,
       name: 'Yulin Li',
       category: 'Alumni',
@@ -176,21 +155,6 @@ const people = [
       name: 'Elior Benarous',
       category: 'Alumni',
       future: 'Master student from ETH Zurich'
-    },
-    {
-      id: 25,
-      name: 'Rajiv Swamy',
-      category: 'Masters and Undergrads',
-      title: 'Master student at Harvard',
-      imageUrl: process.env.PUBLIC_URL + 'profile.jpeg'
-    },
-    {
-      id: 26,
-      name: 'Wenhui Huang',
-      title: 'Postdoc (joint w/ Yilun Du)',
-      category: 'research-staff-and-postdocs', 
-      imageUrl: process.env.PUBLIC_URL + 'Wenhui.jpeg',
-      bioLink: 'https://oscarhuangwind.github.io/'
     },
     {
       id: 27,
@@ -210,17 +174,45 @@ const people = [
       name: 'Jack Benarroch Jedlicki',
       category: 'PhD',
       imageUrl: process.env.PUBLIC_URL + 'jack.jpg',
+      bioLink: 'https://jackbj23.github.io/',
       title: "Computer Science"
+    },
+    {
+      id: 30,
+      name: 'Amish Sethi',
+      category: 'PhD',
+      title: 'Computer Science',
+      imageUrl: process.env.PUBLIC_URL + '/amish.jpg',
+      bioLink: 'https://amishsethi.github.io/'
+    },
+    {
+      id: 31,
+      name: 'Matthias Jammot',
+      category: 'PhD',
+      title: 'Computer Science',
+      imageUrl: process.env.PUBLIC_URL + '/matthias.png',
+      bioLink: 'https://matthiasjammot.com/'
+    },
+    {
+      id: 32,
+      name: 'Yukuan Wei',
+      category: 'PhD',
+      title: 'Applied Mathematics',
+      imageUrl: process.env.PUBLIC_URL + '/Yukuan.jpeg',
+      bioLink: 'https://scholar.google.com/citations?user=7dWZUEUAAAAJ&hl=en'
+    },
+    {
+      id: 33,
+      name: 'Charles Liu',
+      category: 'PhD',
+      title: 'Applied Physics',
+      imageUrl: process.env.PUBLIC_URL + '/Charles Liu.jpg',
+      imageClassName: 'square-portrait'
     },
   ];
   
 const PeoplePage = () => {
-    const postdocs = people.filter(person => person.category === 'research-staff-and-postdocs');
     const phdStudents = people.filter(person => person.category === 'PhD');
-    const mastersAndUndergrads = people.filter(person => person.category === 'Masters and Undergrads');
-    const visiting = people.filter(person => person.category === 'Visiting');
-    const highSchool = people.filter(person => person.category === 'High School');
-    const robot = people.filter(person => person.category === 'Robot');
     const alumni = people.filter(person => person.category === 'Alumni');
 
     return (
@@ -228,12 +220,7 @@ const PeoplePage = () => {
             <div className="people-container">
                 <div className="sidebar">
                     <a href="#faculty">Faculty</a>
-                    <a href="#research-staff-and-postdocs">Research Staff and Postdocs</a>
                     <a href="#phd">PhD Students</a>
-                    <a href="#masters-and-undergraduates">Masters and Undergraduates</a>
-                    <a href="#visiting">Visiting Students</a>
-                    <a href="#high-school">High School Students </a>
-                    <a href="#robots">Robots</a>
                     <a href="#alumni">Alumni</a>
                     {/* ... more links */}
                 </div>
@@ -255,95 +242,12 @@ const PeoplePage = () => {
                             ))}
                         </div>
                     </section>
-                    <section id="research-staff-and-postdocs">
-                        <h2>Research Staff and Postdocs</h2>
-                        <div className="people-list">
-                            {postdocs.map(person => (
-                                <div className="people-member" key={person.id}>
-                                    <img src={person.imageUrl} alt={person.name} />
-                                    <div className="people-info">
-                                        <a href={person.bioLink} className="people-name-link">
-                                            <h3>{person.name}</h3>
-                                        </a>
-                                        <p>{person.title}</p>
-                                        {/* Add more links or information if needed */}
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </section>
                     <section id="phd">
                         <h2>PhD Students</h2>
                         <div className="people-list">
                             {phdStudents.map(person => (
                                 <div className="people-member" key={person.id}>
-                                    <img src={person.imageUrl} alt={person.name} />
-                                    <div className="people-info">
-                                        <a href={person.bioLink} className="people-name-link">
-                                            <h3>{person.name}</h3>
-                                        </a>
-                                        <p>{person.title}</p>
-                                        {/* Add more links or information if needed */}
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </section>
-                    <section id="masters-and-undergraduates">
-                        <h2>Masters and Undergraduates</h2>
-                        <div className="people-list">
-                            {mastersAndUndergrads.map(person => (
-                                <div className="people-member" key={person.id}>
-                                    <img src={person.imageUrl} alt={person.name} />
-                                    <div className="people-info">
-                                        <a href={person.bioLink} className="people-name-link">
-                                            <h3>{person.name}</h3>
-                                        </a>
-                                        <p>{person.title}</p>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </section>
-                    <section id="visiting">
-                        <h2>Visiting Students</h2>
-                        <div className="people-list">
-                            {visiting.map(person => (
-                                <div className="people-member" key={person.id}>
-                                    <img src={person.imageUrl} alt={person.name} />
-                                    <div className="people-info">
-                                        <a href={person.bioLink} className="people-name-link">
-                                            <h3>{person.name}</h3>
-                                        </a>
-                                        <p>{person.title}</p>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </section>
-                    <section id="high-school">
-                        <h2>High School Students</h2>
-                        <div className="people-list">
-                            {highSchool.map(person => (
-                                <div className="people-member" key={person.id}>
-                                    <img src={person.imageUrl} alt={person.name} />
-                                    <div className="people-info">
-                                        <a href={person.bioLink} className="people-name-link">
-                                            <h3>{person.name}</h3>
-                                        </a>
-                                        <p>{person.title}</p>
-                                        {/* Add more links or information if needed */}
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </section>
-                    <section id="robots">
-                        <h2>Robots</h2>
-                        <div className="people-list">
-                            {robot.map(person => (
-                                <div className="people-member" key={person.id}>
-                                    <img src={person.imageUrl} alt={person.name} />
+                                    <img src={person.imageUrl} alt={person.name} className={person.imageClassName} />
                                     <div className="people-info">
                                         <a href={person.bioLink} className="people-name-link">
                                             <h3>{person.name}</h3>
@@ -379,4 +283,3 @@ const PeoplePage = () => {
 };
 
 export default PeoplePage;
-
