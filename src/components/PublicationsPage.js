@@ -66,11 +66,12 @@ const allPublications = [
   {
     id: 30,
     title: 'Provable Edge-of-Stability for Adam on a One-Dimensional Quadratic',
-    journal_year: 'arXiv preprint 2026',
+    journal_year: 'International OPT Workshop on Optimization for Machine Learning 2026',
     people: ['Yiman Fong', 'Heng Yang'],
     tags: ['Optimization Dynamics'],
     pdfLink: 'https://arxiv.org/abs/2608.20638',
-    year: 2026
+    year: 2026,
+    abbrev: 'NeurIPS OPT'
   },
   {
     id: 29,

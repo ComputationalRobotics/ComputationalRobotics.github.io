@@ -5,6 +5,12 @@ import './RecentNews.css';
 // If you want to add hyperlinks, just create dictionary with keys 'text' and 'link', otherwise just create text.
 const newsItems = [
     {
+    date: 'Sep 29, 2026',
+    content: [
+      { text: 'Provable Edge-of-Stability for Adam on a One-Dimensional Quadratic', link: 'https://arxiv.org/abs/2608.20638'},
+      { text: ' accepted to NeurIPS OPT Optimization for Machine Learning, congrats to Yiman!'}
+    ],},
+    {
     date: 'Sep 26, 2026',
     content: [
       { text: 'BEACON', link: 'https://arxiv.org/abs/2605.08571'},
