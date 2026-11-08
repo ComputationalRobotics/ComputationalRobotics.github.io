@@ -164,11 +164,12 @@ const allPublications = [
   { 
     id: 20, 
     title: 'Local Linear Convergence of the Alternating Direction Method of Multipliers for Semidefinite Programming under Strict Complementarity',
-    journal_year: 'arXiv preprint 2025', 
+    journal_year: 'Mathematical Programming, 2026',
     people: ['Shucheng Kang', 'Xin Jiang', 'Heng Yang'],
     tags: ['Semidefinite Optimization and Relaxation'],
     pdfLink: 'https://arxiv.org/pdf/2503.20142',
-    year: 2025
+    year: 2026,
+    abbrev: 'Math. Prog.'
   },
   { 
     id: 19, 

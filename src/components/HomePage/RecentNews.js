@@ -5,6 +5,12 @@ import './RecentNews.css';
 // If you want to add hyperlinks, just create dictionary with keys 'text' and 'link', otherwise just create text.
 const newsItems = [
     {
+    date: 'Nov 7, 2026',
+    content: [
+      { text: 'Local Linear Convergence of ADMM for SDP under Strict Complementarity', link: 'https://arxiv.org/abs/2503.20142'},
+      { text: ' accepted to Mathematical Programming, congrats to Shucheng!'}
+    ],},
+    {
     date: 'Sep 29, 2026',
     content: [
       { text: 'Provable Edge-of-Stability for Adam on a One-Dimensional Quadratic', link: 'https://arxiv.org/abs/2608.20638'},
